@@ -4,4 +4,4 @@ streamlit-extras
 nltk
 google-cloud-dialogflow
 pandas
-re
+regex
