@@ -8,6 +8,8 @@ nltk.download('stopwords')
 from nltk.corpus import stopwords
 from string import punctuation
 df = pd.read_csv("final_df.csv")
+
+
 def clean_text(skills):
     i = 0
     for skill in skills:
@@ -80,10 +82,11 @@ def match_location(input, location, dictionary):
         for k,v in companies.items():
             if location.lower() in v.lower():
                 return k
-def get_company(input, dictionary):
+def get_company(string, dictionary):
     company = []
-    for companies in dictionary[input.lower()]:
-        for k, _ in companies.items():
-            if k != None:
-                company.append(k)
-    return company
+    for skills in string:
+        for companies in dictionary[skills.lower()]:
+            for k, v in companies.items():
+                if k != None:
+                    company.append({k: v})
+        return company
