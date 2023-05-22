@@ -6,9 +6,13 @@ import streamlit as st
 from streamlit_chat import message
 from streamlit_extras.colored_header import colored_header
 import os
+from datetime import datetime
 
-
-
+now = datetime.now()
+now = re.sub(r'[^\w_. -]', '_', now.strftime("%d/%m/%Y %H:%M:%S"))
+path = os.path.join("logs", f"{now}.txt")
+if "f_path" not in st.session_state:
+  st.session_state["f_path"] = path
 
 
 def diagflow(inp):
@@ -61,7 +65,10 @@ def get_text():
     with st.form("my_form", clear_on_submit=True):
         input_text = st.text_input("You: ", "", key="input")
         submitted = st.form_submit_button("Go")
+        
         if submitted:
+            with open(st.session_state["f_path"], "a") as f:
+                f.write(f"USER: {datetime.now()}:         {input_text} \n")
             return input_text
 with input_container:
     user_input = get_text()
@@ -81,6 +88,8 @@ def generate_response(prompt):
         response = f"The companies that need {skills} skills are {set([(next(iter(company.keys()))) for company in get_company(skills, skill_dict)])} which are located at {set([(next(iter(company.values()))) for company in get_company(skills, skill_dict)])}"
     else:
         response = f"The {job_title} jobs are available at {set([(next(iter(company.keys()))) for company in get_company(job_title, title_dict)])} which are located at {set([(next(iter(company.values()))) for company in get_company(job_title, title_dict)])}"
+    with open(st.session_state["f_path"], "a") as f:
+        f.write(f"BOT: {datetime.now()}:         {response} \n")
     return response
 
 with response_container:
