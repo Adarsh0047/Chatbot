@@ -1,12 +1,12 @@
 from google.cloud import dialogflow
 from google.api_core.exceptions import InvalidArgument
-from n_gram import skill_dict, title_dict
+from n_gram import skill_dict, title_dict, get_company
 from n_gram import *
 import streamlit as st
 from streamlit_chat import message
 from streamlit_extras.colored_header import colored_header
 import os
-nltk.download('stopwords')
+
 
 
 
@@ -29,6 +29,10 @@ def diagflow(inp):
         job_title = response.query_result.parameters[entity]
       if entity == "location":
         location = response.query_result.parameters[entity]
+    if job_title == "":
+        for entitity in response.query_result.parameters:
+            if entitity == "skills":
+                job_title = response.query_result.parameters[entitity]
     return job_title, location
 
 
@@ -66,8 +70,10 @@ def generate_response(prompt):
             response = f"The {job_title} jobs in {location} are available at {match_location(job_title, location, title_dict)}"
         except:
             response = f"The jobs with {job_title} skills in {location} are available at {match_location(job_title, location, skill_dict)}"
-    else:
+    elif job_title == '':
         response = "Sorry request cannot be fulfilled"
+    else:
+        response = f"The {job_title} jobs are available at {get_company(job_title, skill_dict)}"
     return response
 
 with response_container:
