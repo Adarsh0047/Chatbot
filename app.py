@@ -8,6 +8,8 @@ from streamlit_extras.colored_header import colored_header
 import os
 from datetime import datetime
 
+if not os.path.exists("logs"):
+    os.makedirs("logs")
 now = datetime.now()
 now = re.sub(r'[^\w_. -]', '_', now.strftime("%d/%m/%Y %H:%M:%S"))
 path = os.path.join("logs", f"{now}.txt")
@@ -48,7 +50,7 @@ def diagflow(inp):
 
 
 
-st.set_page_config(page_title="Chatbot")
+st.set_page_config(page_title="Chatbot", initial_sidebar_state="collapsed")
 
 st.title("Chatbot")
 if "generated" not in st.session_state:
@@ -61,15 +63,22 @@ input_container = st.container()
 colored_header(label='', description='', color_name='blue-30')
 response_container = st.container()
 
+
 def get_text():
-    with st.form("my_form", clear_on_submit=True):
-        input_text = st.text_input("You: ", "", key="input")
-        submitted = st.form_submit_button("Go")
-        
-        if submitted:
-            with open(st.session_state["f_path"], "a") as f:
-                f.write(f"USER: {datetime.now()}:         {input_text} \n")
-            return input_text
+    if "input_text" not in st.session_state:
+        st.session_state.input_text = ""
+
+    def clear_text():
+        st.session_state.input_text = st.session_state.input
+        st.session_state.input = ""
+    # with st.form("my_form", clear_on_submit=True):
+    input_text = st.text_input("You: ", "", key="input", on_change=clear_text)
+    # submitted = st.form_submit_button("Go")
+    
+    # if submitted:
+    with open(st.session_state["f_path"], "a") as f:
+        f.write(f"{datetime.now()}: USER:         {input_text} \n")
+    return st.session_state.input_text
 with input_container:
     user_input = get_text()
 
@@ -89,7 +98,7 @@ def generate_response(prompt):
     else:
         response = f"The {job_title} jobs are available at {set([(next(iter(company.keys()))) for company in get_company(job_title, title_dict)])} which are located at {set([(next(iter(company.values()))) for company in get_company(job_title, title_dict)])}"
     with open(st.session_state["f_path"], "a") as f:
-        f.write(f"BOT: {datetime.now()}:         {response} \n")
+        f.write(f"{datetime.now()}: BOT:         {response} \n")
     return response
 
 with response_container:
@@ -102,3 +111,12 @@ with response_container:
         for i in range(len(st.session_state["generated"])):
             message(st.session_state["past"][i], is_user=True, key=str(i) + "_user")
             message(st.session_state["generated"][i], key=str(i) + "_bot")
+        
+with st.sidebar:
+    st.sidebar.title("Logs")
+    try:
+        with open(st.session_state["f_path"], "r") as f:
+            st.download_button("Download Logs", f, file_name=now + ".txt", mime="text/csv")
+    except:
+        st.info("Start Chatting to get the logs")
+    
