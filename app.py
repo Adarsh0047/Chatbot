@@ -32,8 +32,8 @@ def diagflow(inp):
     if job_title == "":
         for entitity in response.query_result.parameters:
             if entitity == "skills":
-                job_title = response.query_result.parameters[entitity]
-    return job_title, location
+                skills = response.query_result.parameters[entitity]
+    return job_title, location, skills
 
 
 
@@ -64,16 +64,18 @@ with input_container:
     user_input = get_text()
 
 def generate_response(prompt):
-    job_title, location = diagflow(prompt)
+    job_title, location, skills = diagflow(prompt)
     if job_title and location is not '':
         try:
             response = f"The {job_title} jobs in {location} are available at {match_location(job_title, location, title_dict)}"
         except:
             response = f"The jobs with {job_title} skills in {location} are available at {match_location(job_title, location, skill_dict)}"
-    elif job_title == '':
+    elif job_title == '' and skills == '':
         response = "Sorry request cannot be fulfilled"
-    else:
+    elif job_title == '' and skills is not '':
         response = f"The {job_title} jobs are available at {get_company(job_title, skill_dict)}"
+    else:
+        response = f"The {job_title} jobs are available at {get_company(job_title, title_dict)}"
     return response
 
 with response_container:
