@@ -77,11 +77,12 @@ skill_dict = find_ngram("SKILLS")
 user_input = "Computer Vision"
 title_dict = find_ngram("TITLE")
 def match_location(input, location, dictionary):
-    for companies in dictionary[input.lower()]:
-        # print(companies)
-        for k,v in companies.items():
-            if location.lower() in v.lower():
-                return k
+    for title in input:
+        for companies in dictionary[title.lower()]:
+            # print(companies)
+            for k,v in companies.items():
+                if location.lower() in v.lower():
+                    return k
 def get_company(string, dictionary):
     company = []
     for skills in string:
