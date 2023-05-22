@@ -1,6 +1,42 @@
+from google.cloud import dialogflow
+from google.api_core.exceptions import InvalidArgument
+from n_gram import skill_dict, title_dict
+from n_gram import *
 import streamlit as st
 from streamlit_chat import message
 from streamlit_extras.colored_header import colored_header
+import os
+
+
+
+
+
+def diagflow(inp):
+    DIALOG_FLOW_PROJECT_ID = "tribal-archery-386911"
+    DIALOGFLOW_LANGUAGE_CODE = "en"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'private_key.json'
+    text_input = dialogflow.TextInput(text=inp, language_code=DIALOGFLOW_LANGUAGE_CODE)
+    SESSION_ID = 'me'
+    session_client = dialogflow.SessionsClient()
+    session = session_client.session_path(DIALOG_FLOW_PROJECT_ID, SESSION_ID)
+    query_input = dialogflow.QueryInput(text=text_input)
+    try:
+      response = session_client.detect_intent(request={"session": session, "query_input": query_input})
+    except InvalidArgument:
+      raise
+    for entity in response.query_result.parameters:
+      if entity == "jobtitle":
+        job_title = response.query_result.parameters[entity]
+      if entity == "location":
+        location = response.query_result.parameters[entity]
+    return job_title, location
+
+
+
+
+
+
+
 st.set_page_config(page_title="Chatbot")
 
 st.title("Chatbot")
@@ -24,7 +60,14 @@ with input_container:
     user_input = get_text()
 
 def generate_response(prompt):
-    response =  prompt
+    job_title, location = diagflow(prompt)
+    if job_title and location is not '':
+        try:
+            response = f"The {job_title} jobs in {location} are available at {match_location(job_title, location, title_dict)}"
+        except:
+            response = f"The jobs with {job_title} skills in {location} are available at {match_location(job_title, location, skill_dict)}"
+    else:
+        response = "Sorry request cannot be fulfilled"
     return response
 
 with response_container:
