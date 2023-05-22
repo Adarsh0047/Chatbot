@@ -103,3 +103,7 @@ def match_location(input, location, dictionary):
         for k,v in companies.items():
             if location.lower() in v.lower():
                 return k
+def get_company(input, dictionary):
+    for companies in dictionary[input.lower()]:
+        for k, v in companies.items():
+            return k            
