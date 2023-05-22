@@ -3,6 +3,7 @@ import numpy as np
 from collections import defaultdict
 import re
 import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from string import punctuation
 df = pd.read_csv("final_df.csv")
