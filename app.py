@@ -24,6 +24,9 @@ def diagflow(inp):
       response = session_client.detect_intent(request={"session": session, "query_input": query_input})
     except InvalidArgument:
       raise
+    job_title = ""
+    location = ""
+    skills = ""
     for entity in response.query_result.parameters:
       if entity == "jobtitle":
         job_title = response.query_result.parameters[entity]
@@ -65,17 +68,19 @@ with input_container:
 
 def generate_response(prompt):
     job_title, location, skills = diagflow(prompt)
-    if job_title and location is not '':
+    if job_title and location != '':
         try:
             response = f"The {job_title} jobs in {location} are available at {match_location(job_title, location, title_dict)}"
         except:
             response = f"The jobs with {job_title} skills in {location} are available at {match_location(job_title, location, skill_dict)}"
     elif job_title == '' and skills == '':
         response = "Sorry request cannot be fulfilled"
-    elif job_title == '' and skills is not '':
-        response = f"The {job_title} jobs are available at {get_company(skills, skill_dict)}"
+    elif job_title == '' and location == '' and skills != '':
+        response = f"The companies that need {skills} skills are {set([(next(iter(company.keys()))) for company in get_company(skills, skill_dict)])}"
+    elif job_title == '' and (skills != '' and location != ''):
+        response = f"The companies that need {skills} skills are {set([(next(iter(company.keys()))) for company in get_company(skills, skill_dict)])} which are located at {set([(next(iter(company.values()))) for company in get_company(skills, skill_dict)])}"
     else:
-        response = f"The {job_title} jobs are available at {get_company(job_title, title_dict)}"
+        response = f"The {job_title} jobs are available at {set([(next(iter(company.keys()))) for company in get_company(job_title, title_dict)])} which are located at {set([(next(iter(company.values()))) for company in get_company(job_title, title_dict)])}"
     return response
 
 with response_container:
