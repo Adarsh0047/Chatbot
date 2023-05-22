@@ -73,7 +73,7 @@ def generate_response(prompt):
     elif job_title == '' and skills == '':
         response = "Sorry request cannot be fulfilled"
     elif job_title == '' and skills is not '':
-        response = f"The {job_title} jobs are available at {get_company(job_title, skill_dict)}"
+        response = f"The {job_title} jobs are available at {get_company(skills, skill_dict)}"
     else:
         response = f"The {job_title} jobs are available at {get_company(job_title, title_dict)}"
     return response
