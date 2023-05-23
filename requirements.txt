@@ -5,3 +5,5 @@ nltk
 google-cloud-dialogflow
 pandas
 regex
+fuzzywuzzy
+traitlets
