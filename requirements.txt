@@ -7,3 +7,4 @@ pandas
 regex
 fuzzywuzzy
 traitlets
+python-Levenshtein
