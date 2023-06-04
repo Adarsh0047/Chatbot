@@ -245,7 +245,15 @@ if not os.path.exists("logs"):  # Creating a new directory to store the logs
 
 # Streamlit app
 st.set_page_config(page_title="Chatbot", initial_sidebar_state="collapsed")
-
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        <footer>
+        {visibility: hidden}
+        </footer>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 if "rerun" not in st.session_state:
     # pth = dict()
     # pth["path"] = ""
