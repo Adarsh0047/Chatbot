@@ -3,6 +3,8 @@ import numpy as np
 from collections import defaultdict
 import re
 import nltk
+nltk.download("punkt")
+nltk.download("stopwords")
 from nltk.corpus import stopwords
 from string import punctuation
 from pprint import pprint
