@@ -248,10 +248,9 @@ st.set_page_config(page_title="Chatbot", initial_sidebar_state="collapsed")
 hide_menu_style = """
         <style>
         #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        .stActionButton {visibility: hidden;}
         </style>
-        <footer>
-        {visibility: hidden}
-        </footer>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 if "rerun" not in st.session_state:
