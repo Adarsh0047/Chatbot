@@ -1,7 +1,5 @@
 from google.cloud import dialogflow_v2
 from google.api_core.exceptions import InvalidArgument
-from n_gram import skill_dict, title_dict, get_company
-from n_gram import *
 import streamlit as st
 from streamlit_chat import message
 from streamlit_extras.colored_header import colored_header
@@ -9,6 +7,8 @@ import os
 from datetime import datetime
 import csv
 import random
+from fuzzywuzzy import fuzz
+import re
 
 # Dialogflow Code
 # """
@@ -76,10 +76,17 @@ def ca_bot(text):
         jobtitle = entry['TITLE'].lower()
         location = entry['LOCATION'].lower()
         skills = [skill.lower() for skill in entry['SKILLS']]
+        if user_intent=='Default Fallback Intent' or user_intent=='Default Welcome Intent':
+          if fuzz.ratio(text.lower(), 'thank you') >= 75:
+            matched_entries.append('Have a good day')
+          elif fuzz.ratio(text.lower(), 'how are you') >= 75:
+            matched_entries.append('I\'m good')
+          else:
+            matched_entries.append('How can I help you today?')
 
-        if user_intent == 'job_prospects':
+        elif user_intent == 'job_prospects':
             # Check if the user entity matches the entry
-            if not user_entity:
+            if not user_entity or (len(user_entity) == 1 and 'number' in user_entity and isinstance(user_entity['number'], str) and user_entity['number'].isdigit()):
                 matched_entries.append(entry['TITLE'])
             elif 'jobtitle' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
@@ -102,13 +109,15 @@ def ca_bot(text):
 
         elif user_intent == 'list_of_companies':
             # Check if the user entity matches the entry
-            if not user_entity:
+            if not user_entity or (len(user_entity) == 1 and 'number' in user_entity and isinstance(user_entity['number'], str) and user_entity['number'].isdigit()):
                 matched_entries.append(entry['COMPANY_NAME'])
+                
             elif 'jobtitle' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
                    
                     matched_entries.append(entry['COMPANY_NAME'])
+                    
             elif 'company_name' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
@@ -125,7 +134,7 @@ def ca_bot(text):
                 matched_entries.append(entry['COMPANY_NAME'])
         elif user_intent == 'skills_required':
             # Check if the user entity matches the entry
-            if not user_entity:
+            if not user_entity or (len(user_entity) == 1 and 'number' in user_entity and isinstance(user_entity['number'], str) and user_entity['number'].isdigit()):
                 matched_entries.extend(entry['SKILLS'])
             elif 'jobtitle' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
@@ -148,7 +157,7 @@ def ca_bot(text):
                 matched_entries.extend(entry['SKILLS'])                
         elif user_intent == 'qualifications_required':
             # Check if the user entity matches the entry
-            if not user_entity:
+            if not user_entity or (len(user_entity) == 1 and 'number' in user_entity and isinstance(user_entity['number'], str) and user_entity['number'].isdigit()):
                 matched_entries.append(entry['QUALIFICATIONS'])
             elif 'jobtitle' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
@@ -172,7 +181,7 @@ def ca_bot(text):
         elif user_intent == 'salary_info':   
             random_number = random.randrange(250000, 1500000, 10000)
             entry['random_number'] = random_number
-            if not user_entity:
+            if not user_entity or (len(user_entity) == 1 and 'number' in user_entity and isinstance(user_entity['number'], str) and user_entity['number'].isdigit()):
                 matched_entries.append(entry['random_number'])
             elif 'jobtitle' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
@@ -193,11 +202,12 @@ def ca_bot(text):
                 matched_entries.append(entry['random_number'])
             elif 'job_type' in user_entity and user_entity['job_type'].lower() == entry['JOBTYPE'].lower():
                 matched_entries.append(entry['random_number'])          
-
+    matched_entries=list(set(matched_entries))
+    
     if 'number' in user_entity:
         number = str(user_entity['number'])
-        matched_entries = matched_entries[:int(number)]
-
+        matched_entries = random.sample(matched_entries, int(number))
+    
     return matched_entries
 
   # Example usage
@@ -206,12 +216,15 @@ def ca_bot(text):
 
       # Match intent and entity to display relevant information
       
-      matched_entries = match_intent_entity(user_intent, user_entity, dataset)
+      matched_entries =(match_intent_entity(user_intent, user_entity, dataset))
+      
     #   print(matched_entries)
       filtered_entries = [str(entry) for entry in matched_entries for entry_part in str(entry).split(',') if entry_part.replace(' ', '').isalnum()]
-
+        
       if 'number' in user_entity:
         value=matched_entries
+      elif user_intent=='Default Fallback Intent' or user_intent=='Default Welcome Intent':
+        value= matched_entries 
       elif re.search(r'\baverage\b', text, re.IGNORECASE):
         numbers = [int(entry) for entry in matched_entries]
         if numbers:
@@ -239,12 +252,8 @@ def ca_bot(text):
 if not os.path.exists("logs"):  # Creating a new directory to store the logs
     os.makedirs("logs")
 
-
-
-
-
 # Streamlit app
-st.set_page_config(page_title="Chatbot", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="CABOT", initial_sidebar_state="collapsed")
 hide_menu_style = """
         <style>
         #MainMenu {visibility: hidden;}
@@ -264,7 +273,7 @@ if "rerun" not in st.session_state:
     st.session_state.rerun = path
 
 
-st.title("Chatbot")
+st.title("CABOT")
 if "generated" not in st.session_state:
     st.session_state["generated"] = ["Hello! Welcome"]
 
@@ -311,4 +320,3 @@ with response_container:
         for i in range(len(st.session_state['generated'])):
             message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
             message(st.session_state['generated'][i], key=str(i))
-
