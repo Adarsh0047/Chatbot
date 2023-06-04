@@ -4,7 +4,5 @@ streamlit-extras
 nltk
 google-cloud-dialogflow
 pandas
+numpy
 regex
-fuzzywuzzy
-traitlets
-python-Levenshtein
