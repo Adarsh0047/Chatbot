@@ -327,3 +327,10 @@ with response_container:
         for i in range(len(st.session_state['generated'])):
             message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
             message(st.session_state['generated'][i], key=str(i))
+with st.sidebar:
+    st.sidebar.title("Logs")
+    try:
+        with open(st.session_state.rerun, "r") as f:
+            st.download_button("Download Logs", f, file_name=now + ".csv", mime="text/csv")
+    except:
+        st.info("Start Chatting to get the logs")
