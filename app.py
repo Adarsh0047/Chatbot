@@ -273,7 +273,7 @@ if "rerun" not in st.session_state:
     st.session_state.rerun = path
 
 
-st.title("CABOT")
+st.title("🤖CABOT")
 if "generated" not in st.session_state:
     st.session_state["generated"] = ["Hello! Welcome"]
 
