@@ -301,13 +301,20 @@ with input_container:
 def generate_response(prompt):
     intent,entity,confidence,reply = ca_bot(prompt)
     with open(st.session_state.rerun, "a") as f:
-        f.write(f"{datetime.now()},{prompt},{reply},{entity},{confidence},{intent}\n")
+        r = "["
+        if type(reply) == type([]):
+            r = f"'{reply}'"
+            r = re.sub(r",", "\t", r)
+            f.write(f"{datetime.now()},{prompt},{r},{entity},{confidence},{intent}\n")
+        else:
+            f.write(f"{datetime.now()},{prompt},{reply},{entity},{confidence},{intent}\n")
     sam = ""
     if type(reply) == type([]):
             for msg in reply:
                 sam = sam + msg + "\n"
             reply = sam
     return reply
+
 
 
 with response_container:
