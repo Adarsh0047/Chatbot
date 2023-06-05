@@ -331,6 +331,6 @@ with st.sidebar:
     st.sidebar.title("Logs")
     try:
         with open(st.session_state.rerun, "r") as f:
-            st.download_button("Download Logs", f, file_name=now + ".csv", mime="text/csv")
+            st.download_button("Download Logs", f, file_name=st.session_state.rerun, mime="text/csv")
     except:
         st.info("Start Chatting to get the logs")
