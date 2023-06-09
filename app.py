@@ -247,7 +247,7 @@ def ca_bot(text):
             value.append(i)
         
       elif matched_entries==[]:
-          value="At the moment, my memory capabilities are restricted." 
+          value.append("At the moment, my memory capabilities are restricted.")
           
       return value
 
