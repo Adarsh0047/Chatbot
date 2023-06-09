@@ -233,7 +233,7 @@ def ca_bot(text):
         if numbers:
           average = sum(numbers) / len(numbers) 
           value=int(average)
-      elif re.search(r'\b(how\s+many|count)\b', text, re.IGNORECASE):
+      if re.search(r'\b(how\s+many|count|number\s+of)\b', text, re.IGNORECASE):
         value = len(filtered_entries)
       elif len(filtered_entries) > 10:
         matched_entries = random.sample(list(set(filtered_entries)), 10)
