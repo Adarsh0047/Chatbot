@@ -208,24 +208,26 @@ def ca_bot(text):
     if 'number' in user_entity:
         number = str(user_entity['number'])
         matched_entries = random.sample(list(set(matched_entries)), int(number))
-    
+   
     return matched_entries
 
   # Example usage
   def query_dataset(user_intent, user_entity):
-      dataset = load_dataset('final_df.csv')  # Replace 'your_dataset.csv' with the actual file path
+      dataset = load_dataset('final_df.csv')        
+      matched_entries =match_intent_entity(user_intent, user_entity, dataset)
+  
+      #filtered_entries =set(list([str(entry) for entry in matched_entries for entry_part in str(entry).split(',') if entry_part.replace(' ', '').isalnum()]))
+      filtered_entries =set(list([str(entry) for entry in matched_entries for entry_part in str(entry).split(',') if entry_part.replace(' ', '').isalnum() or '-' in entry_part]))
 
-      # Match intent and entity to display relevant information
       
-      matched_entries =(match_intent_entity(user_intent, user_entity, dataset))
-      
-    #   print(matched_entries)
-      filtered_entries =set(list([str(entry) for entry in matched_entries for entry_part in str(entry).split(',') if entry_part.replace(' ', '').isalnum()]))
-        
+      value=[]  
       if 'number' in user_entity:
         value=matched_entries
       elif user_intent=='Default Fallback Intent' or user_intent=='Default Welcome Intent':
-        value= matched_entries 
+        for i in matched_entries:
+          if i not in value:
+            value.append(i)
+       
       elif re.search(r'\baverage\b', text, re.IGNORECASE):
         numbers = [int(entry) for entry in matched_entries]
         if numbers:
@@ -235,18 +237,22 @@ def ca_bot(text):
         value = len(filtered_entries)
       elif len(filtered_entries) > 10:
         matched_entries = random.sample(list(set(filtered_entries)), 10)
-        value = matched_entries
+        for i in matched_entries:
+          if i not in value:
+            value.append(i)
       elif len(filtered_entries)>=1 and len(filtered_entries)< 10:
         matched_entries = set(filtered_entries)
-        value =matched_entries
+        for i in matched_entries:
+          if i not in value:
+            value.append(i)
         
       elif matched_entries==[]:
           value="At the moment, my memory capabilities are restricted." 
-      return list(value)
+          
+      return value
 
   reply=query_dataset(intent,entity)
   return intent,entity,confidence,reply
-
 
 
 # Create a csv file which contains the intent, confidence, entities, reply
