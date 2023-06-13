@@ -71,6 +71,7 @@ def ca_bot(text):
   # Match intent and entity to display relevant information
   def match_intent_entity(user_intent, user_entity, dataset):
     matched_entries = []
+    matches=[]
     for entry in dataset:
         company_name = entry['COMPANY_NAME'].lower()
         jobtitle = entry['TITLE'].lower()
@@ -180,7 +181,7 @@ def ca_bot(text):
             else:
                 matched_entries.append('Apologies, but I don\'t have the information you\'re seeking. Could you please retry your query using specific job titles or a company name?')
         elif user_intent == 'salary_info':   
-            random_number = random.randrange(250000, 1500000, 10000)
+            random_number = random.randrange(250000, 1500000, 100000)
             entry['random_number'] = random_number
             if not user_entity or (len(user_entity) == 1 and 'number' in user_entity and isinstance(user_entity['number'], str) and user_entity['number'].isdigit()):
                 matched_entries.append(entry['random_number'])
@@ -188,36 +189,53 @@ def ca_bot(text):
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
                    
-                    matched_entries.append(f"{entry['TITLE']} - {entry['random_number']}")
+                    matched_entries.append(f"{entry['TITLE']} -{entry['COMPANY_NAME']}- {entry['random_number']}")
+                    matches.append(entry['random_number'])
             elif 'company_name' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                    matched_entries.append(f"{entry['COMPANY_NAME']} - {entry['random_number']}")    
+                    matched_entries.append(f"{entry['TITLE']}-{entry['COMPANY_NAME']} - {entry['random_number']}") 
+                    matches.append(entry['random_number'])   
             elif 'company_name' in user_entity and re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle):
                 matched_entries.append(f"{entry['COMPANY_NAME']} - {entry['random_number']}")
+                matches.append(entry['random_number']) 
             elif 'jobtitle' in user_entity and re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle):
                 matched_entries.append(f"{entry['TITLE']} - {entry['random_number']}")
+                matches.append(entry['random_number']) 
             elif 'location' in user_entity and re.search(fr"\b({user_entity['location'].lower()})\b", location):
                 matched_entries.append(entry['random_number'])
+                matches.append(entry['random_number'])
             elif 'skills' in user_entity and (user_entity['skills'].lower() in skills):
                 matched_entries.append(entry['random_number'])
+                matches.append(entry['random_number'])
             elif 'job_type' in user_entity and user_entity['job_type'].lower() == entry['JOBTYPE'].lower():
-                matched_entries.append(entry['random_number'])          
+                matched_entries.append(entry['random_number']) 
+                matches.append(entry['random_number'])         
     matched_entries=list(set(matched_entries))
+    if re.search(r'\baverage\b', text, re.IGNORECASE):
+      numbers = [int(entry) for entry in matches]
+      if numbers:
+          average = sum(numbers) / len(numbers) 
+          value=int(average)
+          matched_entries=value
+
     
-    if 'number' in user_entity:
+    elif 'number' in user_entity:
         number = str(user_entity['number'])
         matched_entries = random.sample(list(set(matched_entries)), int(number))
    
     return matched_entries
+   
 
   # Example usage
   def query_dataset(user_intent, user_entity):
       dataset = load_dataset('final_df.csv')        
       matched_entries =match_intent_entity(user_intent, user_entity, dataset)
-  
-      #filtered_entries =set(list([str(entry) for entry in matched_entries for entry_part in str(entry).split(',') if entry_part.replace(' ', '').isalnum()]))
-      filtered_entries =set(list([str(entry) for entry in matched_entries for entry_part in str(entry).split(',') if entry_part.replace(' ', '').isalnum() or '-' in entry_part]))
+      if isinstance(matched_entries, int):
+        filtered_entries = set([str(entry) for entry in str(matched_entries).split(',') if entry.replace(' ', '').isalnum() or '-' in entry])
+      else:
+        filtered_entries = set([str(entry) for entry in matched_entries for entry_part in str(entry).split(',') if entry_part.replace(' ', '').isalnum() or '-' in entry_part])
+      
 
       
       value=[]  
@@ -227,13 +245,10 @@ def ca_bot(text):
         for i in matched_entries:
           if i not in value:
             value.append(i)
-       
       elif re.search(r'\baverage\b', text, re.IGNORECASE):
-        numbers = [int(entry) for entry in matched_entries]
-        if numbers:
-          average = sum(numbers) / len(numbers) 
-          value=int(average)
-      if re.search(r'\b(how\s+many|count|number\s+of)\b', text, re.IGNORECASE):
+        value=matched_entries
+
+      elif re.search(r'\b(how\s+many|count|number\s+of)\b', text, re.IGNORECASE):
         value = len(filtered_entries)
       elif len(filtered_entries) > 10:
         matched_entries = random.sample(list(set(filtered_entries)), 10)
@@ -248,6 +263,7 @@ def ca_bot(text):
         
       elif matched_entries==[]:
           value.append("At the moment, my memory capabilities are restricted.")
+          
           
       return value
 
