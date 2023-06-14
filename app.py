@@ -160,7 +160,7 @@ def ca_bot(text):
                 matched_entries.extend(entry['SKILLS'])
             elif 'job_type' in user_entity and user_entity['job_type'].lower() == entry['JOBTYPE'].lower():
                 matched_entries.extend(entry['SKILLS'])                
-        elif user_intent == 'qualifications_required':
+        elif user_intent == 'qualifications_required' or user_intent == 'education_required':
             if not user_entity or (len(user_entity) == 1 and 'number' in user_entity and isinstance(user_entity['number'], str) and user_entity['number'].isdigit()):
               if 'qualification' in text.lower() or 'qualifications' in text.lower():
                  matched_entries.append(entry['QUALIFICATIONS'])
