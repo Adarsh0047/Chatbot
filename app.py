@@ -269,7 +269,7 @@ if "rerun" not in st.session_state:
     now = re.sub(r'[^\w_. -]', '_', now.strftime("%d/%m/%Y %H:%M:%S"))  # Replacing _ with - as filenames do not support these 
     path = os.path.join("logs", f"{now}.csv")
     with open(path, 'a') as csvfile: 
-        csvfile.write("Date,Question,Response,Entities,Confidence,Intent" + "\n")
+        csvfile.write("Date,Question,Response,Confidence,Intent" + "\n")
     st.session_state.rerun = path
     st.session_state.now = now
 
@@ -306,16 +306,9 @@ def generate_response(prompt):
         if type(reply) == type([]):
             r = f"'{reply}'"
             r = re.sub(r",", "\t", r)
-            f.write(f"{datetime.now()},{prompt},{r}")
+            f.write(f"{datetime.now()},{prompt},{r},{confidence},{intent}\n")
         else:
-            f.write(f"{datetime.now()},{prompt},{reply}")
-        r = "["
-        if type(entity) == type([]):
-            r = f"'{entity}'"
-            r = re.sub(r",", "\t", r)
-            f.write(f",{r},{confidence},{intent}\n")
-        else:
-            f.write(f",{entity},{confidence},{intent}\n")
+            f.write(f"{datetime.now()},{prompt},{reply},{confidence},{intent}\n")
     sam = ""
     if type(reply) == type([]):
             for msg in reply:
