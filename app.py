@@ -165,7 +165,7 @@ def ca_bot(text):
               if 'qualification' in text.lower() or 'qualifications' in text.lower():
                  matched_entries.append(entry['QUALIFICATIONS'])
             # Check if the user entity matches the entry
-            if 'jobtitle' in user_entity and 'location' in user_entity:
+            elif 'jobtitle' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
 
