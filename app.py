@@ -71,35 +71,40 @@ def ca_bot(text):
   # Match intent and entity to display relevant information
   def match_intent_entity(user_intent, user_entity, dataset):
     matched_entries = []
+    matches=[]
     for entry in dataset:
         company_name = entry['COMPANY_NAME'].lower()
         jobtitle = entry['TITLE'].lower()
         location = entry['LOCATION'].lower()
         skills = [skill.lower() for skill in entry['SKILLS']]
-        if user_intent=='Default Fallback Intent' or user_intent=='Default Welcome Intent':
+        if  user_intent=='Default Welcome Intent':
+
           if fuzz.ratio(text.lower(), 'thank you') >= 75:
             matched_entries.append('Have a good day')
           elif fuzz.ratio(text.lower(), 'how are you') >= 75:
             matched_entries.append('I\'m good')
+          elif fuzz.ratio(text.lower(), 'what is your name') >= 50:
+             matched_entries.append('My name is CABOT')
           else:
-            matched_entries.append('How can I help you today?')
-
+            matched_entries.append('Hey! How can I help you today?')
+        elif  user_intent=='Default Fallback Intent':
+           matched_entries.append('Apologies for the inconvenience. My memory is currently limited.')
         elif user_intent == 'job_prospects':
             # Check if the user entity matches the entry
             if not user_entity or (len(user_entity) == 1 and 'number' in user_entity and isinstance(user_entity['number'], str) and user_entity['number'].isdigit()):
-                matched_entries.append(entry['TITLE'])
+                matched_entries.append(f"{entry['TITLE']} - {entry['COMPANY_NAME']}")
             elif 'jobtitle' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                    matched_entries.append(entry['TITLE'])
+                    matched_entries.append(f"{entry['TITLE']} - {entry['COMPANY_NAME']}")
             elif 'company_name' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                    matched_entries.append(entry['TITLE'])        
+                    matched_entries.append(entry['TITLE'])
             elif 'company_name' in user_entity and re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle):
                 matched_entries.append(entry['TITLE'])
             elif 'jobtitle' in user_entity and re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle):
-                matched_entries.append(entry['TITLE'])
+                matched_entries.append(f"{entry['TITLE']} - {entry['COMPANY_NAME']}")
             elif 'location' in user_entity and re.search(fr"\b({user_entity['location'].lower()})\b", location):
                 matched_entries.append(entry['TITLE'])
             elif 'skills' in user_entity and (user_entity['skills'].lower() in skills):
@@ -111,21 +116,21 @@ def ca_bot(text):
             # Check if the user entity matches the entry
             if not user_entity or (len(user_entity) == 1 and 'number' in user_entity and isinstance(user_entity['number'], str) and user_entity['number'].isdigit()):
                 matched_entries.append(entry['COMPANY_NAME'])
-                
+
             elif 'jobtitle' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                   
-                    matched_entries.append(entry['COMPANY_NAME'])
-                    
+
+                    matched_entries.append(f"{entry['TITLE']} - {entry['COMPANY_NAME']}")
+
             elif 'company_name' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                    matched_entries.append(entry['COMPANY_NAME'])    
+                    matched_entries.append(entry['COMPANY_NAME'])
             elif 'company_name' in user_entity and re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle):
                 matched_entries.append(entry['COMPANY_NAME'])
             elif 'jobtitle' in user_entity and re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle):
-                matched_entries.append(entry['COMPANY_NAME'])
+                matched_entries.append(f"{entry['TITLE']} - {entry['COMPANY_NAME']}")
             elif 'location' in user_entity and re.search(fr"\b({user_entity['location'].lower()})\b", location):
                 matched_entries.append(entry['COMPANY_NAME'])
             elif 'skills' in user_entity and (user_entity['skills'].lower() in skills):
@@ -139,12 +144,12 @@ def ca_bot(text):
             elif 'jobtitle' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                   
+
                     matched_entries.extend(entry['SKILLS'])
             elif 'company_name' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                    matched_entries.extend(entry['SKILLS'])    
+                    matched_entries.extend(entry['SKILLS'])
             elif 'company_name' in user_entity and re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle):
                 matched_entries.extend(entry['SKILLS'])
             elif 'jobtitle' in user_entity and re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle):
@@ -154,98 +159,116 @@ def ca_bot(text):
             elif 'skills' in user_entity and (user_entity['skills'].lower() in skills):
                 matched_entries.extend(entry['SKILLS'])
             elif 'job_type' in user_entity and user_entity['job_type'].lower() == entry['JOBTYPE'].lower():
-                matched_entries.extend(entry['SKILLS'])                
-        elif user_intent == 'qualifications_required':
-            # Check if the user entity matches the entry
+                matched_entries.extend(entry['SKILLS'])
+        elif user_intent == 'qualifications_required' or user_intent == 'education_required' :
             if not user_entity or (len(user_entity) == 1 and 'number' in user_entity and isinstance(user_entity['number'], str) and user_entity['number'].isdigit()):
-                matched_entries.append(entry['QUALIFICATIONS'])
-            elif 'jobtitle' in user_entity and 'location' in user_entity:
+              if 'qualification' in text.lower() or 'qualifications' in text.lower():
+                 matched_entries.append(entry['QUALIFICATIONS'])
+            # Check if the user entity matches the entry
+            if 'jobtitle' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                   
+
                     matched_entries.append(entry['QUALIFICATIONS'])
             elif 'company_name' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                    matched_entries.append(entry['QUALIFICATIONS'])    
+                    matched_entries.append(entry['QUALIFICATIONS'])
             elif 'company_name' in user_entity and re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle):
                 matched_entries.append(entry['QUALIFICATIONS'])
             elif 'jobtitle' in user_entity and re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle):
                 matched_entries.append(entry['QUALIFICATIONS'])
-            elif 'location' in user_entity and re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                matched_entries.append(entry['QUALIFICATIONS'])
-            elif 'skills' in user_entity and (user_entity['skills'].lower() in skills):
-                matched_entries.append(entry['QUALIFICATIONS'])
-            elif 'job_type' in user_entity and user_entity['job_type'].lower() == entry['JOBTYPE'].lower():
-                matched_entries.append(entry['QUALIFICATIONS'])
-        elif user_intent == 'salary_info':   
-            random_number = random.randrange(250000, 1500000, 10000)
+            else:
+                matched_entries.append('Apologies, but I don\'t have the information you\'re seeking. Could you please retry your query using specific job titles or a company name?')
+        elif user_intent == 'salary_info':
+            random_number = random.randrange(250000, 1500000, 100000)
             entry['random_number'] = random_number
             if not user_entity or (len(user_entity) == 1 and 'number' in user_entity and isinstance(user_entity['number'], str) and user_entity['number'].isdigit()):
                 matched_entries.append(entry['random_number'])
             elif 'jobtitle' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                   
-                    matched_entries.append(entry['random_number'])
+
+                    matched_entries.append(f"{entry['TITLE']} -{entry['COMPANY_NAME']}- {entry['random_number']}")
+                    matches.append(entry['random_number'])
             elif 'company_name' in user_entity and 'location' in user_entity:
                 if re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle) and \
                         re.search(fr"\b({user_entity['location'].lower()})\b", location):
-                    matched_entries.append(entry['random_number'])    
+                    matched_entries.append(f"{entry['TITLE']}-{entry['COMPANY_NAME']} - {entry['random_number']}")
+                    matches.append(entry['random_number'])
             elif 'company_name' in user_entity and re.search(fr"\b({user_entity['company_name'].replace('/', '|').lower()})\b", jobtitle):
-                matched_entries.append(entry['random_number'])
+                matched_entries.append(f"{entry['COMPANY_NAME']} - {entry['random_number']}")
+                matches.append(entry['random_number'])
             elif 'jobtitle' in user_entity and re.search(fr"\b({user_entity['jobtitle'].replace('/', '|').lower()})\b", jobtitle):
-                matched_entries.append(entry['random_number'])
+                matched_entries.append(f"{entry['TITLE']} - {entry['random_number']}")
+                matches.append(entry['random_number'])
             elif 'location' in user_entity and re.search(fr"\b({user_entity['location'].lower()})\b", location):
                 matched_entries.append(entry['random_number'])
+                matches.append(entry['random_number'])
             elif 'skills' in user_entity and (user_entity['skills'].lower() in skills):
                 matched_entries.append(entry['random_number'])
+                matches.append(entry['random_number'])
             elif 'job_type' in user_entity and user_entity['job_type'].lower() == entry['JOBTYPE'].lower():
-                matched_entries.append(entry['random_number'])          
+                matched_entries.append(entry['random_number'])
+                matches.append(entry['random_number'])
     matched_entries=list(set(matched_entries))
-    
-    if 'number' in user_entity:
+    if re.search(r'\baverage\b', text, re.IGNORECASE):
+      numbers = [int(entry) for entry in matches]
+      if numbers:
+          average = sum(numbers) / len(numbers)
+          value=int(average)
+          matched_entries=value
+
+
+    elif 'number' in user_entity:
         number = str(user_entity['number'])
-        matched_entries = random.sample(matched_entries, int(number))
-    
+        matched_entries = random.sample(list(set(matched_entries)), int(number))
+
     return matched_entries
+
 
   # Example usage
   def query_dataset(user_intent, user_entity):
-      dataset = load_dataset('final_df.csv')  # Replace 'your_dataset.csv' with the actual file path
+      dataset = load_dataset('final_df.csv')
+      matched_entries =match_intent_entity(user_intent, user_entity, dataset)
+      if isinstance(matched_entries, int):
+        filtered_entries = set([str(entry) for entry in str(matched_entries).split(',') if entry.replace(' ', '').isalnum() or '-' in entry])
+      else:
+        filtered_entries = set([str(entry) for entry in matched_entries for entry_part in str(entry).split(',') if entry_part.replace(' ', '').isalnum() or '-' in entry_part])
 
-      # Match intent and entity to display relevant information
-      
-      matched_entries =(match_intent_entity(user_intent, user_entity, dataset))
-      
-    #   print(matched_entries)
-      filtered_entries = [str(entry) for entry in matched_entries for entry_part in str(entry).split(',') if entry_part.replace(' ', '').isalnum()]
-        
+
+
+      value=[]
       if 'number' in user_entity:
         value=matched_entries
       elif user_intent=='Default Fallback Intent' or user_intent=='Default Welcome Intent':
-        value= matched_entries 
+        for i in matched_entries:
+          if i not in value:
+            value.append(i)
       elif re.search(r'\baverage\b', text, re.IGNORECASE):
-        numbers = [int(entry) for entry in matched_entries]
-        if numbers:
-          average = sum(numbers) / len(numbers) 
-          value=int(average)
-      elif re.search(r'\b(how\s+many|count)\b', text, re.IGNORECASE):
+        value=matched_entries
+
+      elif re.search(r'\b(how\s+many|count|number\s+of)\b', text, re.IGNORECASE):
         value = len(filtered_entries)
       elif len(filtered_entries) > 10:
-        matched_entries = random.sample(filtered_entries, 10)
-        value = matched_entries
+        matched_entries = random.sample(list(set(filtered_entries)), 10)
+        for i in matched_entries:
+          if i not in value:
+            value.append(i)
       elif len(filtered_entries)>=1 and len(filtered_entries)< 10:
-        matched_entries = filtered_entries
-        value =matched_entries
-        
+        matched_entries = set(filtered_entries)
+        for i in matched_entries:
+          if i not in value:
+            value.append(i)
+
       elif matched_entries==[]:
-          value="No matching entries found." 
+          value.append("At the moment, my memory capabilities are restricted.")
+
+
       return value
 
   reply=query_dataset(intent,entity)
   return intent,entity,confidence,reply
-
 
 
 # Create a csv file which contains the intent, confidence, entities, reply
