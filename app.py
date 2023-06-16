@@ -15,9 +15,13 @@ import re
 # Returns intent, entity, confidence and reply
 # """
 def ca_bot(text):
-  DIALOG_FLOW_PROJECT_ID = "tribal-archery-386911"
+    DIALOG_FLOW_PROJECT_ID = "tribal-archery-386911"
   DIALOGFLOW_LANGUAGE_CODE = "en"
-  os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'private_key.json'
+  json_obj = st.secrets["json_obj"]
+  json_obj = json.loads(json_obj, strict=False)
+  with open("test.json", "w") as outfile:
+    json.dump(json_obj, outfile)
+  os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'test.json'
 
   text_input = dialogflow_v2.TextInput(text=text, language_code=DIALOGFLOW_LANGUAGE_CODE)
   SESSION_ID = 'me'
