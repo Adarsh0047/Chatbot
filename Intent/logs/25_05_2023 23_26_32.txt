@@ -1,0 +1,109 @@
+2023-05-25 23:26:32.706192: USER:         Hi! 
+2023-05-25 23:26:54.115712: USER:         Hi! 
+2023-05-25 23:26:57.599246: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:26:57.608780] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:27:33.455852: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:27:33.460855] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:27:41.264766: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:27:41.272764] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:36.010523: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:36.015893] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:36.844460: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:36.849458] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:37.767709: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:37.773223] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:38.822204: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:38.827191] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:39.463866: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:39.467864] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:40.189766: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:40.194801] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:40.990436: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:40.996555] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:41.699687: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:41.707226] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:42.386412: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:42.391503] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:43.018505: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:43.023627] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:43.760816: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:43.769351] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:44.605919: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:44.609912] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:45.438603: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:45.445157] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:46.274444: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:46.283022] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:47.027974: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:47.032551] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:47.981748: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:47.988738] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:48.764508: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:48.772069] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:49.577780: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:49.582302] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:50.489418: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:50.500141] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:51.342118: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:51.350145] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:52.032962: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:52.038965] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:52.808012: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:52.815107] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:53.498650: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:53.505220] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:54.236163: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:54.242701] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:29:55.524054: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:29:55.531051] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:10.320257: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:10.328783] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:11.151413: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:11.154817] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:12.023457: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:12.028452] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:12.787628: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:12.793092] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:13.719735: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:13.729066] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:14.682773: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:14.693023] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:15.875818: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:15.879820] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:16.687112: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:16.696646] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:17.632692: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:17.636694] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:18.386720: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:18.391717] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:19.049474: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:19.054996] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:19.829539: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:19.835060] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:20.821007: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:20.829540] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:21.577377: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:21.581947] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:22.359337: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:22.364863] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:23.320140: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:23.329454] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:31.020783: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:31.026341] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:30:33.820061: USER:         What are the computer vision jobs in coimbatore? 
+2023-05-25 23:30:36.712444: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:30:36.715423] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:31:53.211410: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:31:53.219568] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:32:39.728399: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:32:39.733902] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:33:19.715236: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:33:19.723340] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:34:27.054291: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:34:27.061815] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:34:46.133345: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:34:46.141877] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:35:01.475963: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:35:01.480496] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:35:29.545098: USER:         What are the computer vision jobs in coimbatore? 
+[2023-05-25 23:35:29.551630] bot(expected):         The jobs with Computer Vision skills in Coimbatore are available at YOROSIS Technologies 

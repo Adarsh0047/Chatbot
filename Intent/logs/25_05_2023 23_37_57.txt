@@ -1,0 +1,29 @@
+2023-05-25 23:39:41.338411: USER:         Hi! 
+2023-05-25 23:39:58.262047: USER:         What are the ai jobs in coimbatore? 
+2023-05-25 23:40:01.880526: USER:         What are the ai jobs in coimbatore? 
+[2023-05-25 23:40:01.885530] bot(expected):         The AI Engineer jobs in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:41:26.352180: USER:         What are the ai jobs in coimbatore? 
+[2023-05-25 23:41:26.358184] bot(expected):         The AI Engineer jobs in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:41:34.942169: USER:         What are the ai jobs in coimbatore? 
+[2023-05-25 23:41:34.949175] bot(expected):         The AI Engineer jobs in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:41:40.637414: USER:         What are the ai jobs in coimbatore? 
+2023-05-25 23:41:43.234939: USER:         What are the ai jobs in coimbatore? 
+[2023-05-25 23:41:43.238938] bot(unexpected):         The AI Engineer jobs in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:41:46.699296: USER:         What are the ai jobs in coimbatore? 
+2023-05-25 23:42:44.175230: USER:         What are the ai jobs in coimbatore? 
+2023-05-25 23:42:56.754074: USER:         What are the ai jobs in coimbatore? 
+2023-05-25 23:43:02.237800: USER:         What are the ai jobs in coimbatore? 
+[2023-05-25 23:43:02.242372] bot(expected):         The AI Engineer jobs in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:43:04.812590: USER:         What are the ai jobs in coimbatore? 
+2023-05-25 23:43:07.035791: USER:         What are the ai jobs in coimbatore? 
+[2023-05-25 23:43:07.040790] bot(unexpected):         The AI Engineer jobs in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:43:09.791051: USER:         What are the ai jobs in coimbatore? 
+[2023-05-25 23:43:09.796568] bot(unexpected):         The AI Engineer jobs in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:43:49.507687: USER:         What are the ai jobs in coimbatore? 
+[2023-05-25 23:43:49.515227] bot(unexpected):         The AI Engineer jobs in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:43:54.639446: USER:         What are the ai jobs in coimbatore? 
+[2023-05-25 23:43:54.644965] bot(No Answer):         The AI Engineer jobs in Coimbatore are available at YOROSIS Technologies 
+2023-05-25 23:43:55.919380: USER:         What are the ai jobs in coimbatore? 
+2023-05-25 23:44:07.627198: USER:         What are the ai jobs in coimbatore? 
+2023-05-25 23:44:09.457953: USER:         What are the ai jobs in coimbatore? 
+[2023-05-25 23:44:09.463941] bot(expected):         The AI Engineer jobs in Coimbatore are available at YOROSIS Technologies 
