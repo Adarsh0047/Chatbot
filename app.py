@@ -303,7 +303,7 @@ if "rerun" not in st.session_state:
     st.session_state.now = now
 
 
-st.title("🤖CABOT🤖")
+# st.title("🤖CABOT🤖")
 image = Image.open("logo.png")
 image = image.resize((300,200))
 col1, col2, col3 = st.columns(3)
