@@ -1,0 +1,406 @@
+###ID0
+###TITLEData Analyst (AI/ML)
+Data Analyst (AI/ML) - Coimbatore, Tamil Nadu - Indeed.com
+
+save-icon
+
+ Mallow is a custom software development company based in Karur, Tamilnadu. We have experienced professionals across a variety of trend-setting domains of software development. We have also developed many web and mobile applications. Our teams include RoR, PHP, React. JS, Front-End, Android, iOS, Python, Data Analyst (AI/ML), QA and Business Analysts. Our client base is huge and so our professionals work to meet all the varied needs with one aspect, Quality.
+
+ We are looking for a passionate Senior Data Analyst with machine learning experience who can transform large structured and unstructured data sets into valuable insights, reports and make predictions for business decisions. The roles & responsibilities includes:
+
+
+
+
+
+
+
+###ID1
+###TITLEML/AI Engineer
+ML/AI Engineer - Coimbatore, Tamil Nadu - Indeed.com
+
+save-icon
+
+Total work: 1 year (Required)
+
+Bachelor's (Preferred)
+
+Job description
+
+Job Types: Full-time, Regular / Permanent
+
+Salary: ₹8,086.00 - ₹42,320.52 per month
+
+Benefits:
+
+Schedule:
+
+Ability to commute/relocate:
+
+Education:
+
+Experience:
+
+Speak with the employer+91 7639723372
+
+Hiring 1 candidate for this role
+
+
+
+
+
+
+
+###ID2
+###TITLEAI ML Developers for Interior Monitoring Systems product
+AI ML Developers for Interior Monitoring Systems product - Coimbatore, Tamil Nadu - Indeed.com
+
+save-icon
+
+ Bosch Global Software Technologies is a 100% owned subsidiary of Robert Bosch GmbH, one of the world's leading global supplier of technology and services, offering end-to-end Engineering, IT and Business Solutions. With over 20000+ associates, it’s the largest software development center of Bosch, outside Germany, indicating that it is the Technology Powerhouse of Bosch in India with a global footprint and presence in the US, Europe and the Asia Pacific region.
+
+ You will be part of a team developing interior sensing algorithms such as eye tracking, driver distraction, drowsiness estimation, yawning, seat belt detection, head post, body pose, etc.
+
+ We have to solve these using algorithms in the field of image processing, AI/ML, and deep learning.
+
+ The work shall involve developing new features and applications, integrating and optimizing the algorithms for specific target platforms and environments.
+
+ B.Tech, M.Tech, Ph.D in Computer Science with AI ML
+
+
+
+ Skills & Requirements :
+
+ + Degree in AI/ML/Data Science
+
+ + Good knowledge in C/C++ and Linux/QNX
+
+ + Embedded Software development
+
+ + Model, Algorithm development
+
+ + Experience in image processing, graphics programming, AI/ML
+
+ + Scripting languages like Python (Good to have)
+
+ + Experience of Software development within Automotive industry.(Good to have)
+
+ + Experience of developing software for functional safety relevant products (ISO26262) (Good to have)
+
+ Experience in Automotive domain
+
+
+
+
+
+
+
+
+
+###ID3
+###TITLEInnovators
+Innovators - Coimbatore, Tamil Nadu - Indeed.com
+
+save-icon
+
+Total work: 1 year (Preferred)
+
+The person must be good in Research, Patent, publications, Funding and projects
+
+Must be Completed M.E/ M.TECH in (CSE, IT, AI-DS, AI-ML)
+
+Department :Innovation Hub https://www.snsihub.in
+
+Pay : 30K to 40K as per AICTE 6/7 th Pay.
+
+Job Type: Full-time
+
+Schedule:
+
+Ability to commute/relocate:
+
+Experience:
+
+Hiring 10+ candidates for this role
+
+
+
+
+
+
+
+###ID4
+###TITLEWeb Developer for Sensors and Solutions, IoT Use-Case
+Web Developer for Sensors and Solutions, IoT Use-Case - Coimbatore, Tamil Nadu - Indeed.com
+
+save-icon
+
+ Bosch Global Software Technologies Limited (BGSW), is a 100% owned subsidiary of Robert Bosch GmbH, one of the world’s leading global supplier of technology and services, offering end to end engineering, IT and Business solutions.
+
+ Our specific team from BGSW works with Bosch Sensortec GmbH
+
+ Bosch Sensortec GmbH develops and markets key technologies in consumer electronics – micro-electro-mechanical sensors (MEMS), solutions and systems for smartphone applications, tablets, video game consoles, wearables, and the Internet of things. The sensors enable devices to recognize their surroundings and to transmit the data collected. MEMS are therefore part of the foundation for a networked world. Bosch Sensortec GmbH is a wholly owned subsidiary of Robert Bosch GmbH.
+
+ We are looking to hire a skilled web application engineer to join our dynamic software design team. As a web application engineer, you will be responsible for developing and maintaining AI based web application. Your work will help customers to test our next gen AI/ML driven Bosch sensors and will also be a reference for their product development. Bosch Sensors is driving a whole wearable/IOT landscape and bridging the physical and digital world.
+
+ Applicant shall possess a creative mind and enthusiasm to work on future tech as the candidate and shall involve in designing, developing application based on latest trending web technologies. Working on this topic, the developer shall experience a very interesting and challenging workflow with a wide spectrum from analyzing the market trends, Requirement analysis, Software designing to Solution development and problem-solving using simulation software as well as on actual hardware.
+
+
+
+
+
+
+
+
+
+###ID5
+###TITLESr.Data Analytics
+Sr.Data Analytics - Coimbatore, Tamil Nadu - Indeed.com
+
+save-icon
+
+Total work: 5 years (Preferred)
+
+Qualification UG in Engineering degree preferably mechanical
+
+Experience Minimum 3 years in manufacturing company (any Industry) proven working experience in Data analytics, Data visualization, (simulation models, AI / ML, IOT are added advantage)
+
+Duties And Responsibilities:
+
+Statistical analysis
+
+Diagnostic analytics
+
+Predictive analytics
+
+Analytical skills
+
+Data analysis
+
+Research
+
+Critical thinking
+
+Good communication
+
+Problem-solving
+
+know to convey your ideas via visualization and creativity.
+
+Skill requirements:
+
+Job Type: Full-time
+
+Salary: From ₹30,000.00 per month
+
+Benefits:
+
+Schedule:
+
+Supplemental pay types:
+
+Ability to commute/relocate:
+
+Experience:
+
+Work Location: One location
+
+Hiring 1 candidate for this role
+
+
+
+
+
+
+
+###ID6
+###TITLESenior Software Engineer DevOps - Infrastructure & Release Engineering
+Senior Software Engineer DevOps - Infrastructure & Release Engineering - Coimbatore, Tamil Nadu - Indeed.com
+
+save-icon
+
+Cloud infrastructure / AWS: 4 years (Required)
+
+Alchemy/Infura: 4 years (Required)
+
+Position : Software Engineers & Tech Leads (ANGULAR, REACT JS, JAVA)
+
+Location(s): Coimbatore, Tamil Nadu
+
+GREETINGS!!
+
+We are having multiple positions with our client @ Coimbatore (Tamil Nadu, India), who are leading providers of Data Driven Solutions, AI / ML Solutions, a full-blown Product Engineering, Cloud Transformation & Software engineering solutions
+
+JD –
+
+Technology specialist with a minimum of 3 yrs of experience in developing front end applications using Angular across platforms web/mobile with a good command using framework, TypeScript, thorough knowledge of HTML5, CSS. A degree of experience using RESTFul API integration. Knowledge of adjacent technologies like Node/Webpack.
+
+Candidate requirements
+
+● Minimum 3+ of experience
+
+● Angular, RestAPI, JavaScript / TypeScript
+
+● Python, Django/Flask, Hibernate, Spring MVC, Node.JS
+
+● Bootstrap, jQuery, MongoDB, MySQL, PostgreSQL
+
+● Experience of technically leading a team is a plus
+
+● Responsible for mentoring junior developers with code reviews design reviews and unit tests
+
+● Develop and unit test application programs as specified in technical design
+
+● Good communication skills
+
+Salary: Industry standards / competitive
+
+If you are interested to work in an exciting growth-oriented environment, please send in your profile with the following details
+
+1. Notice Period
+
+2. Current Annual Salary + any variable components
+
+3. Expected Annual Salary
+
+4. Willing to relocate to Coimbatore (Tamil Nadu)
+
+5. Total Experience
+
+Best Regards
+
+PRIYA
+
+LION & ELEPHANTS CONSULTANCY SERVICES (P) LTD
+
+Job Type: Full-time
+
+Salary: ₹1,500,000.00 - ₹3,000,000.00 per year
+
+Benefits:
+
+Schedule:
+
+Supplemental pay types:
+
+Ability to commute/relocate:
+
+Experience:
+
+Hiring 10+ candidates for this role
+
+
+
+
+
+
+
+###ID7
+###TITLEGolang Senior Developers
+Golang Senior Developers - Coimbatore, Tamil Nadu - Indeed.com
+
+save-icon
+
+Total work: 5 years (Required)
+
+Golang: 5 years (Required)
+
+Bachelor's (Preferred)
+
+Position : Golang Senior Developer
+
+Location(s): Coimbatore, Tamil Nadu
+
+GREETINGS!!
+
+We are having multiple positions with our client @ Coimbatore (Tamil Nadu, India), who are leading providers of Data Driven Solutions, AI / ML Solutions, a full-blown Product Engineering, Cloud Transformation & Software engineering solutions
+
+JD –
+
+Technology Specialists with experience of 5+ years of hands-on Golang development. An ideal candidate will work within the E2E software development life cycle, from planning and prioritizing to testing and release. Responsibilities include gathering system and user requirements, designing solutions and unit / functional testing before release.
+
+An ideal candidate is expected to posses hands-on experience with agile methodologies, a team player, and are ready to lead a team. Ultimately, candidates will develop and maintain functional, secure, performant, and highly scalable quality applications.
+
+Candidate requirements
+
+● 5+ years in Golang & SQL
+
+● Experience with Java Spring Boot
+
+● Experience with Docker
+
+● Experience in cloud technologies (AWS and OCI preferred)
+
+● Experience with Linux
+
+● Experience with unit testing frameworks
+
+● Experience with Kubernetes/ Helm Chart is beneficial
+
+● Experience with terraform is beneficial
+
+● Experience with React is beneficial
+
+● Experience with fintech is beneficial
+
+● Able to work with minimal direct supervision
+
+● Demonstrated mastery in problem resolution and root cause analysis
+
+Salary: Industry standards / competitive
+
+If you are interested to work in an exciting growth-oriented environment, please send in your profile to priya@lionandelephants.com or janu@lionandelephants.com with the following details
+
+1. Notice Period (Prefers Immediate Joiners)
+
+2. Current Annual Salary + any variable components
+
+3. Expected Annual Salary
+
+4. Willing to relocate to Coimbatore (Tamil Nadu)
+
+5. Total Experience
+
+6. Do you have any offers in hand ?
+
+Best Regards
+
+PRIYA
+
+LION & ELEPHANTS CONSULTANCY SERVICES (P) LTD
+
+Job Type: Full-time
+
+Salary: ₹1,500,000.00 - ₹2,100,000.00 per year
+
+Benefits:
+
+Schedule:
+
+Supplemental pay types:
+
+Ability to commute/relocate:
+
+Education:
+
+Experience:
+
+Hiring 2 candidates for this role
+
+
+
+
+
+
+
+###ID8
+###TITLESW Engineer-AUTOSAR Architecture
+SW Engineer-AUTOSAR Architecture - Coimbatore, Tamil Nadu - Indeed.com
+
+save-icon
+
+
+
+
+
+
+

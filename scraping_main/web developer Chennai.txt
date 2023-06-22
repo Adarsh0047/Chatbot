@@ -1,0 +1,1116 @@
+###ID0
+###TITLEHuge openings for PHP Developer
+###COMPANYNAMEThe GNB Charitable Foundation
+###LOCATIONT Nagar, Chennai, Tamil Nadu
+Huge openings for PHP Developer - T Nagar, Chennai, Tamil Nadu - Indeed.com
+save-icon
+Greetings from GNB Tech Software Solutions Pvt Ltd!
+
+
+We are hiring for PHP Developer in a product based company - Chennai
+
+
+You should apply if you have Proven expertise in deploying challenging developmental tasks Strong written and verbal communication skills and demonstrated critical thinking 2 to 8 years experience in core PHP(MUST) Strong work ethics  Confident & professional attitude Hands-on experience in PHP based systems (PHP, MySQL, HTML, CSS, Javascript, JQuery, regular expressions) Experience in creating web forms and user-generated data Deep understanding of web service architectures including HTTP, REST, and related technologies like JSON and XML API Programming Strong Database Architecture skills Knowledge of source code versioning (prefer Git), CI/CD tools, and testing automation Bachelor's degree in Computer Science, Information Systems Management is preferred
+
+
+Working days: Monday to FridayWeekends offFree Food provided
+
+
+Job Type: Full-time
+
+
+Salary: ₹20,000.00 - ₹60,000.00 per month
+
+
+Benefits:
+
+
+
+Food allowance
+
+
+
+Schedule:
+
+
+
+Day shift
+Morning shift
+
+
+
+Supplemental pay types:
+
+
+
+Yearly bonus
+
+
+
+Ability to commute/relocate:
+
+
+
+T. Nagar, Chennai - 600017, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Experience:
+
+
+
+Core PHP: 1 year (Required)
+total work: 1 year (Preferred)
+software development: 2 years (Required)
+
+
+
+Speak with the employer+91 7299667657
+
+
+
+
+
+
+###ID1
+###TITLESoftware Development Engineer 1 (SDE-1)
+###COMPANYNAMEPublicis Sapient
+###LOCATIONIndia
+Software Development Engineer 1 (SDE-1) - India - Indeed.com
+save-icon
+
+ Company Description
+  Publicis Sapient is a digital transformation partner helping established organizations get to their future, digitally-enabled state, both in the way they work and the way they serve their customers. We help unlock value through a start-up mindset and modern methods, fusing strategy, consulting, and customer experience with agile engineering and problem-solving creativity. United by our core values and our purpose of helping people thrive in the brave pursuit of the next, our 20,000+ people in 53 offices around the world combine experience across technology, data sciences, consulting and customer obsession to accelerate our clients’ businesses through designing the products and services their customers truly value.
+
+
+
+
+
+
+
+ Job Description
+  We at Publicis Sapient, enable our clients to Thrive in Next and to create business value through expert strategies, customer-centric experience design, and world class product engineering.The future of business is disruptive; transformative; and becoming digital to the core.In our 20 + years in IT, never have we seen such a dire need for transformation in every major industry, from financial services to automotive, consumer products, retail, energy, and travel.
+ Your Impact:
+
+ You will work in the spirit of agile & a product engineering mindset - delivering the sprint outcomes, iteratively & incrementally, following the agile ceremonies
+ You will groom the stories functionally & help define the acceptance criteria (Functional & Non-Functional/NFRs) collaborating actively with stakeholders - locally & in client org., understanding end-to-end customer requirements
+ You will actively contribute in technical grooming, brainstorming & whiteboarding design sessions to define & articulate the solution approaches, to identify tasks & estimates, and to document the module/sub-system design with their interfaces & wireframes
+ You will have breadth of concepts, tools & technologies to address NFRs like security, performance, reliability, maintainability and understand the need for trade-offs
+ You will bring in expertise to optimize and make the relevant design decisions (considering trade-offs) at the module / components level
+
+ You will be a polyglot with a PE mindset – Open & Curious, learning & adopting new languages, platforms & toolkits constantly
+ #LI-REMOTE
+ We at Publicis Sapient, enable our clients to Thrive in Next and to create business value through expert strategies, customer-centric experience design, and world class product engineering. The future of business is disruptive; transformative; and becoming digital to the core.In our 20 + years in IT, never have we seen such a dire need for transformation in every major industry, from financial services to automotive, consumer products, retail, energy, and travel.
+ Your Impact:
+
+ You will work in the spirit of agile & a product engineering mindset - delivering the sprint outcomes, iteratively & incrementally, following the agile ceremonies
+ You will groom the stories functionally & help define the acceptance criteria (Functional & Non-Functional/NFRs) collaborating actively with stakeholders - locally & in client org., understanding end-to-end customer requirements
+ You will actively contribute in technical grooming, brainstorming & whiteboarding design sessions to define & articulate the solution approaches, to identify tasks & estimates, and to document the module/sub-system design with their interfaces & wireframes
+ You will have breadth of concepts, tools & technologies to address NFRs like security, performance, reliability, maintainability and understand the need for trade-offs
+ You will bring in expertise to optimize and make the relevant design decisions (considering trade-offs) at the module / components level
+
+ You will be a polyglot with a PE mindset – Open & Curious, learning & adopting new languages, platforms & toolkits constantly
+ #LI-REMOTE
+
+
+
+
+
+
+
+ Qualifications
+  Your Skills & Experience: 
+
+You have 5+ years of professional work experience building large-scale, large-volume services & distributed apps., taking them through production and post-production life cycles.
+ You use more than one programming language with expertise in at least one; Ex:
+   
+ Memory Management, GC, Templates/Generics, Closures, etc.
+ Multi-Threading, Sync/A-Sync.; Blocking/Non-Blocking execution styles
+
+ You practice Imperative, Functional Programming styles
+ You are aware of Cloud Platforms like AWS, GCP, Azure, etc.
+ You are a problem solver choosing the relevant data structures, and algorithms considering the tools for Time & Space Complexity
+ You apply SOLID, DRY design principles, design patterns & practice Clean Code
+ You are an expert at String Manipulation, Data/Time Arithmetic, Collections & Generics
+ You practice & guide on handling failures à Error Management & Exception handling
+ You build reliable & high-performance apps leveraging Eventing, Streaming, Concurrency, Multi-Threading & Synchronization libraries and frameworks
+ You develop web apps using HTML, CSS, Javascript & relevant frameworks (Angular, React, Vue)
+ You design and build microservices from the ground up, considering all NFRs & applying DDD, Bounded Contexts
+ You use one or more databases (RDBMS or NoSQL) based on the needs
+ You deploy to production, troubleshoot problems & provide live support
+ You understand the significance of security aspects & compliance to data, code & application security policies; You write secure code to prevent known vulnerabilities; You understand HTTPS/TLS, Symmetric/Asymmetric Cryptography, Certificates
+ You use one or more Web Application Frameworks
+   
+ Spring or Spring Boot or Micronaut (Java)
+ Flask or Django (Python)
+ Express or Meteor or Koa (Node)
+ Asp.net MVC, WebApi or Nancy (.Net)
+
+ You use one or more messaging platforms (e.g. JMS/RabbitMQ/Kafka/Tibco/Camel)
+ You use Mocks & Stubs & related frameworks (Moq)
+ You use logging frameworks like Log4j, NLog, etc.
+ You use build tools like MSBuild, Maven, Gradle, Gulp, etc.
+ You understand and use containers, virtualization
+ You use proactive monitoring & alerting, dashboards
+ You use Logging/Monitoring solutions (Splunk, ELK, Grafana)
+
+ Set Yourself Apart With: 
+
+You understand infra. as code (cattle over pets)
+ You understand reactive programming concepts, Actor models & use RX Java / Spring React / Akka / Play, etc.
+ You are able to set up a CI/CD pipeline infrastructure & stack from grounds-up
+ You are able to articulate the pros, cons of designs & tradeoffs
+ You are aware of distributed tracing, debugging, and troubleshooting
+ You are aware of side-car, service mesh usage along with microservices
+ You are aware of distributed, cloud design patterns & architectural styles
+ You are aware of gateways, load-balancers, CDNs, Edge caching
+ You are aware of gherkin and cucumber for BDD automation
+ You are aware of performance testing tools like JMeter, Gatling
+ You are aware of one search solution like ElasticSearch, SOLR, Endeca
+ You are aware of one distributed caching solution like Redis, MemCache, etc.
+ You are aware of selenium for UI automation
+ You are aware of Rules engines like Drools, Easy Rules, etc.
+
+ A Tip from the Hiring Manager: 
+Software Development Engineers (SDE-I) are bright, talented, and motivated young minds with strong technical skills, developing software applications and services that make life easier for customers. The SDE-I is expected to work with an agile team to develop, test, and maintain digital business applications. As an SDE-I you will get an opportunity to work with industry-leading clients and global teams to solve complex business problems and build your skills on the full stack of application development technologies
+ Additional Information
+ 
+
+ Gender Neutral Policy
+ 18 paid holidays throughout the year.
+ Generous parental leave and new parent transition program
+ Flexible work arrangements
+ Employee Assistance Programs to help you in wellness and well being
+
+
+
+
+
+
+
+
+###ID2
+###TITLEWeb Developer
+###COMPANYNAMESquire Enviro Industries Pvt Ltd
+###LOCATIONChennai, Tamil Nadu
+Web Developer - Chennai, Tamil Nadu - Indeed.com
+save-icon
+We need Web Developers for our own In house Info tech Department in OMR, Chennai
+
+
+Job Type: Full-time
+
+
+Salary: ₹8,854.64 - ₹26,701.62 per month
+
+
+Benefits:
+
+
+
+Health insurance
+Provident Fund
+
+
+
+Schedule:
+
+
+
+Day shift
+
+
+
+Supplemental pay types:
+
+
+
+Performance bonus
+
+
+
+Ability to commute/relocate:
+
+
+
+Chennai, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Experience:
+
+
+
+CSS: 1 year (Preferred)
+total work: 1 year (Preferred)
+HTML5: 1 year (Preferred)
+
+
+
+Speak with the employer+91 8428880333
+
+
+
+
+
+
+###ID3
+###TITLEJr. Web Developer
+###COMPANYNAMEveega service
+###LOCATIONChennai, Tamil Nadu
+Jr. Web Developer - Chennai, Tamil Nadu - Indeed.com
+save-icon
+We have Opening For Jr. Web Developer
+
+
+Experience: 6 Months -2 Years
+
+
+Location: Chennai
+
+
+Job Type: Full-time
+
+
+Pay: Up to ₹20,000.00 per month
+
+
+Schedule:
+
+
+
+Day shift
+
+
+
+Ability to commute/relocate:
+
+
+
+Chennai, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Experience:
+
+
+
+CSS: 1 year (Preferred)
+total work: 1 year (Preferred)
+HTML5: 1 year (Preferred)
+
+
+
+Speak with the employer+91 8925454448
+
+
+
+
+
+
+###ID4
+###TITLEUI/Web Developer
+###COMPANYNAMETechades Ebiz Arena
+###LOCATIONChennai, Tamil Nadu
+UI/Web Developer - Chennai, Tamil Nadu - Indeed.com
+save-icon
+A minimum of 1 year of hands-on experience as a frontend developer or related position building web-based frontends
+
+
+Expertise and hands-on experience with web services and technologies such as HTML5, JavaScript,, Bootstrap, CSS Preprocessing, Responsive Design
+
+
+Developing the front ends of existing Web sites by editing current components based on requirements, or creating front ends for new Web sites
+
+
+Working closely with the back-end developers to find ways to push the limits of existing Web technology to promote the best possible user experience
+
+
+Handle multiple projects in a dynamic and fast-paced environment
+
+
+Up-to-date with web development trends, best practices, and tools/techniques
+
+
+Should have basic knowledge of PHP and MVC architecture.
+
+
+Create website layout/user interface by using standard HTML/CSS practices
+
+
+Integrate data from various back-end services and databases
+
+
+Gather and refine specifications and requirements based on technical needs
+
+
+Job Type: Full-time
+
+
+Salary: Up to ₹400,000.00 per year
+
+
+Schedule:
+
+
+
+Day shift
+Fixed shift
+
+
+
+Ability to commute/relocate:
+
+
+
+Chennai, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Experience:
+
+
+
+Angular: 1 year (Preferred)
+total work: 1 year (Preferred)
+HTML5: 1 year (Preferred)
+
+
+
+License/Certification:
+
+
+
+Magneto (Preferred)
+
+
+
+Application Deadline: 01/06/2023
+
+
+
+
+
+
+###ID6
+###TITLEWEB DEVELOPER
+###COMPANYNAMEB2LMobitech
+###LOCATIONChennai, Tamil Nadu
+WEB DEVELOPER - Chennai, Tamil Nadu - Indeed.com
+save-icon
+
+B2LMobitech is looking for a technically savvy and experienced/Fresher web developer to expand development efforts for our website. You will design and develop elegant interfaces that exceed expectations in terms of value and benefit. Additionally, you will have to organise all the data on the backend and make it easily and beautifully accessible. Bridge the gap between graphical design and technical implementation, taking an active role on both sides and defining how the application looks as well as how it works.
+
+ Work Experience: 0 - 3 years|
+  Type: Full TIME |
+  Place: CHENNAI
+
+
+
+
+
+
+
+
+
+
+
+###ID7
+###TITLEWeb Designers
+###COMPANYNAMEMithra consultancy services (MCS)
+###LOCATIONChennai, Tamil Nadu
+Web Designers - Chennai, Tamil Nadu - Indeed.com
+save-icon
+
+Job Description
+We are looking for a Web Designer/UI Designer, who will work with a design team to design good layout interfaces with the latest technology and functions.
+Key Responsibilities: 
+
+  . Creating new designs 
+  
+
+Developing concepts 
+To design websites that ensures they are visually effective and easy to access
+Utilize design skills and creativity to come up with new, and innovative designs for websites, landing pages, micro sites, banner ads, etc.
+Outstanding ability to manage multiple projects within deadline parameters while capable of detail-oriented design work
+
+
+
+
+
+
+
+
+
+###ID8
+###TITLEFront End Developer
+###COMPANYNAMEMissan IT Solutions
+###LOCATIONChennai, Tamil Nadu
+Front End Developer - Chennai, Tamil Nadu - Indeed.com
+save-icon
+Front-end Developer:
+
+
+Job Description:
+
+
+We are looking for a talented Front-end Developer to join our team and help build user interfaces for our web and mobile applications. You will be responsible for designing, implementing, and maintaining the front-end components of our application while ensuring optimal performance and responsiveness.
+
+
+Responsibilities:
+
+
+Develop user interfaces using React, React Native, or other relevant front-end frameworks.
+
+
+Collaborate with designers to translate UI/UX designs into functional and responsive components.
+
+
+Work closely with backend developers to integrate RESTful APIs and ensure seamless communication between the front-end and back-end systems.
+
+
+Optimize the application for maximum performance and scalability.
+
+
+Participate in code reviews and contribute to the overall improvement of the codebase.
+
+
+Requirements:
+
+
+Strong knowledge of JavaScript and experience with front-end frameworks such as React.
+
+
+Familiarity with web markup languages, such as HTML5 and CSS3.
+
+
+Experience with responsive design and cross-browser compatibility.
+
+
+Knowledge of front-end performance optimization techniques.
+
+
+Familiarity with version control systems, such as Git.
+
+
+Good problem-solving skills and the ability to work independently or as part of a team.
+
+
+Knowledge on tools like Figma, AdobeXD will be plus.
+
+
+Job Type: Full-time
+
+
+Salary: ₹273,052.40 - ₹1,200,000.00 per year
+
+
+Schedule:
+
+
+
+Day shift
+
+
+
+Ability to commute/relocate:
+
+
+
+Chennai, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Experience:
+
+
+
+TOTAL WORK: 1 year (Preferred)
+CSS3: 1 year (Preferred)
+HTML5: 1 year (Preferred)
+
+
+
+License/Certification:
+
+
+
+FIGMA (Preferred)
+
+
+
+Speak with the employer+91 9840190287
+
+
+
+
+
+
+###ID9
+###TITLEHTML Developer
+###COMPANYNAMEINS Data Services Pvt Ltd
+###LOCATIONChennai, Tamil Nadu
+HTML Developer - Chennai, Tamil Nadu - Indeed.com
+save-icon
+We are looking for an experienced HTML developer to oversee the design, coding, and implementation of website projects for our clients. In this role, you will be required to collaborate with Website Designers on the initial web design, write the code, ensure cross-platform compatibility, and provide user support.
+
+
+HTML Developer Responsibilities:
+
+
+
+Meeting with Web designers to discuss project design and layout.
+Coding the entire HTML site from end to end.
+Debugging code and front-end web applications.
+Ensuring cross-platform compatibility.
+Troubleshooting application errors.
+Conducting website performance and usability tests.
+Meeting publication deadlines.
+Providing user support.
+
+
+
+HTML Developer Requirements:
+
+
+
+Bachelor's degree in computer science, computer engineering, MIS, or similar.
+At least 1 year of experience as an HTML Developer.
+In-depth knowledge of front-end coding languages including HTML, CSS, JavaScript, and wordpress knowledge will be a plus.
+Ability to troubleshoot coding and application errors.
+Knowledge of web design and user application requirements.
+Ability to meet strict publication deadlines.
+Excellent communication and interpersonal skills.
+Strong attention to detail.
+
+
+
+Job Type: Full-time
+
+
+Salary: ₹12,566.00 - ₹28,987.00 per month
+
+
+Benefits:
+
+
+
+Health insurance
+Provident Fund
+
+
+
+Schedule:
+
+
+
+Day shift
+
+
+
+Supplemental pay types:
+
+
+
+Performance bonus
+
+
+
+Ability to commute/relocate:
+
+
+
+Chennai, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Experience:
+
+
+
+CSS (Preferred)
+HTML5 (Preferred)
+total work (Preferred)
+
+
+
+
+
+
+
+###ID10
+###TITLEJr. Software Engineer (JAVA)
+###COMPANYNAMENCS SoftSolutions
+###LOCATIONChennai, Tamil Nadu
+Jr. Software Engineer (JAVA) - Chennai, Tamil Nadu - Indeed.com
+save-icon
+Our Team - We take pride in our employee culture, which represents the diverse range of thought we provide to our clients.
+
+
+
+
+
+
+Be part of our team
+We're looking for passionate people to join us on our mission. We value flat hierarchies, clear communication and full responsibility.
+Aspirants may reach out at : hrd@ncssoft.in
+
+
+
+
+
+
+
+Jr. Software Engineer (JAVA)
+We are looking for passionate fresher for the role of Trainee Java Software Developers to design, develop and install software solutions.
+
+
+
+
+
+
+Full Time
+
+
+Exp 0-1 Yrs
+
+
+Chennai
+
+
+
+
+
+
+
+
+
+Qualification: UG / PG in CS or IT
+Minimum Company Work Commitment for 2 Years. This is must and is non - negotiable.
+Roles and Responsibilities:
+
+Learn and adapt to the engineering and quality procedures and standards of the company.
+Learn and execute full software development life cycle (SDLC)
+Develop flowcharts, layouts and documentation to identify requirements and solutions
+Learn and write well-designed, testable code
+Learn and develop software verification plans and quality assurance procedures
+Document and maintain software functionality
+Learn and troubleshoot, debug and upgrade existing systems
+Deploy programs and evaluate user feedback
+Comply with project plans and industry standards
+
+Requirements:
+
+Proficiency in Java ( OOPS, Collections, Exception handling, JDBC )
+Proficiency in SQL ( DDL, DML, Clauses, Functions, Joins, Constraints, Sub queries)
+Proficiency in Web Design ( HTML, CSS )
+Should have basic knowledge in Servlet, JSP, JavaScript, JQuery
+Good communication abilities
+
+
+
+
+
+
+
+
+###ID11
+###TITLEFront End Developer
+###COMPANYNAMEDataint Software Technologies Private Limited
+###LOCATIONChennai, Tamil Nadu
+Front End Developer - Chennai, Tamil Nadu - Indeed.com
+save-icon
+We are looking for Front End Developer with 2 years experience in Chennai
+
+
+Skills set:HTML,CSS,Bootstrap,JavaScript
+
+
+Job Type: Full-time
+
+
+Salary: From ₹20,000.00 per month
+
+
+Benefits:
+
+
+
+Flexible schedule
+
+
+
+Schedule:
+
+
+
+Morning shift
+
+
+
+
+
+
+
+###ID12
+###TITLEWeb Developer
+###COMPANYNAMEDigital Mantraaz
+###LOCATIONChennai, Tamil Nadu
+Web Developer - Chennai, Tamil Nadu - Indeed.com
+save-icon
+
+Meeting with clients to discuss website design and function.
+Designing and building the website front-end.
+Creating the website architecture.
+Designing and managing the website back-end including database and server integration.
+Generating WordPress themes and plugins.
+Conducting website performance tests.
+Troubleshooting content issues.
+Conducting WordPress training with the client.
+Monitoring the performance of the live website.
+
+
+
+Job Type: Full-time
+
+
+Salary: ₹25,000.00 - ₹35,000.00 per month
+
+
+Benefits:
+
+
+
+Health insurance
+Provident Fund
+
+
+
+Schedule:
+
+
+
+Day shift
+
+
+
+Supplemental pay types:
+
+
+
+Performance bonus
+Yearly bonus
+
+
+
+Ability to commute/relocate:
+
+
+
+Chennai, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Experience:
+
+
+
+WordPress: 2 years (Preferred)
+PHP: 2 years (Preferred)
+HTML: 2 years (Preferred)
+
+
+
+Speak with the employer+91 7358860565
+
+
+
+
+
+
+###ID13
+###TITLEJava Developer (Diversity)
+###COMPANYNAMECapgemini Technology Services India Limited
+###LOCATIONChennai, Tamil Nadu
+Java Developer (Diversity) - Chennai, Tamil Nadu - Indeed.com
+save-icon
+
+Job Title :Java Developer (Diversity)
+ 
+
+Location: Chennai/Pune/Hyderabad
+  
+
+Experience: 4 - 9 Years
+   
+
+Skills: Java Springboot Microservice,Junit,Restful webservices
+    
+
+Job Description '
+
+
+ Should have expertise in Core Java, Java & J2ee
+ Built MVC based Web Application Using JSP/Struts framework
+ Hands on experience of OOPS concepts, Junit Testing, Hibernate and spring version 3.x 1, Spring Boot
+ Hands on experience of Application Servers like Tomcat and WebLogic. 
+Hands on experience of Restful services and Web services
+ Experience in deploying spring boot in Micro services
+ Good verbal and written communication
+ Excellent team player, ability to work in a global team and follow through on deadlines'
+ Industry: FS
+    
+
+
+
+
+
+
+
+ 4.00-9.00 Years
+
+
+
+
+
+
+###ID14
+###TITLEWEB DESIGNER [FRESHERS ARE ALSO WELCOME]
+###COMPANYNAMESoftSolutions4U
+###LOCATIONChennai, Tamil Nadu
+WEB DESIGNER [FRESHERS ARE ALSO WELCOME] - Chennai, Tamil Nadu - Indeed.com
+save-icon
+
+
+
+
+
+Designation:
+
+
+
+
+
+
+ Web Designer (Freshers are also Welcome)
+
+
+
+
+
+
+
+
+
+
+
+        Technology:
+       
+
+
+
+
+
+
+
+
+
+
+
+
+         HTML,CSS, JavaScript,knowledge of a CMS like WordPress will be an added advantage
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Qualification:
+       
+
+
+
+
+
+
+
+
+
+
+
+
+         Any Graduate, Diploma in Multimedia
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Experience:
+       
+
+
+
+
+
+
+
+
+
+
+
+
+         0 to 5 Years
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Work Location:
+       
+
+
+
+
+
+
+
+
+
+
+
+
+         Chennai, India
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Skill Set:
+       
+
+
+
+
+
+
+
+
+
+
+
+
+         Should have good experience in Designing, Development of Website Functional Knowledge of HTML/CSS Coding, DIV/CSS Websites Experience Good team player
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

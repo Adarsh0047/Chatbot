@@ -1,0 +1,1187 @@
+###ID0
+###TITLEWeb Designer
+###COMPANYNAMELuxury Diamond Jewellery
+###LOCATIONCoimbatore, Tamil Nadu
+Web Designer - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+Job Description
+
+
+Position Title
+
+
+Web Designer
+
+
+Department
+
+
+IT
+
+
+Qualification
+
+
+Graduate
+
+
+Experience
+
+
+Minimum 3 Years
+
+
+Location
+
+
+Coimbatore
+
+
+Salary
+
+
+3.5 LPA – 4 LPA
+
+
+Job Description:
+
+
+
+Responsible for planning, creating and coding internet sites and web pages.
+Responsible for creating the design and layout of a website or web pages.
+Responsible for designing and building the interface, navigation and aesthetic of websites for businesses and clients.
+
+
+
+Skills:
+
+
+
+Knowledge on HTML5, CSS3, SASS, Bootstrap4, JQuery and JavaScript are required
+Knowledge on Angular JS or React JS and WordPress are Preferred.
+Knowledge on Laravel, PHP, Linux, Ubuntu 16 or 18 is a plus
+
+
+
+Job Types: Full-time, Regular / Permanent
+
+
+Salary: ₹350,000.00 - ₹400,000.00 per year
+
+
+Schedule:
+
+
+
+Day shift
+
+
+
+Ability to commute/relocate:
+
+
+
+Coimbatore, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Experience:
+
+
+
+HTML: 1 year (Required)
+web design: 1 year (Required)
+CSS: 1 year (Required)
+PHP: 1 year (Required)
+
+
+
+Application Deadline: 18/05/2023
+
+
+
+
+
+
+###ID1
+###TITLEPHP Developer
+###COMPANYNAMECartrabbit
+###LOCATIONCoimbatore, Tamil Nadu
+PHP Developer - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+PHP Developer - Full Stack (Laravel, React)
+
+
+Skillset Summary: ReactJS, Codeigniter, YII or Laravel
+
+
+Who are we?
+
+
+Cartrabbit is a software-as-a-Service (SaaS) product startup based in Coimbatore, building customer retention and lead generation tools for eCommerce businesses with over 50,000+ customers worldwide. An entirely modern platform that takes you to the world-class product development workflow that promisingly meets customer needs and success. Cartrabbit is committed to maintaining a safe and productive work environment, and you will be a part of an awesome SaaS product development team and incredible benefits that include:
+
+
+Working on cutting-edge technologies and innovative products
+
+
+Provide opportunities to work on exciting projects in a vertical B2B niche SaaS.
+
+
+Opportunity to work in a Product Company
+
+
+Flexible working hours
+
+
+What we are looking for?
+
+
+We are looking for PHP Developers with experience in Laravel to join our team. The ideal candidate should have experience in developing web applications from scratch and be able to work independently, as well as collaboratively with a team. The successful candidate will be responsible for designing, developing, and maintaining complex web applications.
+
+
+What is the skill set required for this job profile?
+
+
+
+Candidates should have a strong knowledge of PHP.
+Write clean, well-designed code using the PHP framework, and other related technologies
+Candidates should have experience/ knowledge working with at least one PHP framework, such as Laravel, Symfony, CodeIgniter, Yii, or CakePHP. They should have a good understanding of the framework's architecture and be able to use it to develop complex web applications.
+Candidates should have experience with front-end web technologies such as HTML, CSS, and JavaScript. They should be able to create responsively and have experience with front-end frameworks such as React, Angular, or Vue.js.
+Candidates should be familiar with version control systems such as Git and be able to collaborate effectively with other developers using tools such as GitHub or Bitbucket.
+
+
+
+What you’ll be doing
+
+
+
+Designing and developing web applications using PHP frameworks such as Laravel, Symfony, CodeIgniter, Yii, or CakePHP
+Writing clean and efficient code that follows industry best practices and standards
+Should be able to read and understand the existing code base
+Collaborating with cross-functional teams to identify and prioritize features for new and existing applications
+Build integrations with multiple eCommerce platforms for our SaaS applications
+Implementing and maintaining third-party APIs to integrate with existing applications
+Troubleshooting and debugging applications to ensure optimal performance and usability
+Collaborating with other developers to maintain and improve existing code and applications
+Working with project managers to ensure projects are completed on time
+Testing and deploying code to production environments.
+Staying up-to-date with emerging trends and technologies in web development and PHP frameworks
+
+
+
+Job Location: Coimbatore(work from office)
+
+
+Educational Qualification:
+
+
+Bachelor's degree in Computer Science or a related degree Program
+
+
+Experience: 0 to 5yrs
+
+
+Fresher candidates with good programming language are applicable for this position.
+
+
+Job Types: Full-time, Regular / Permanent, Fresher
+
+
+Salary: Up to ₹800,000.00 per year
+
+
+Benefits:
+
+
+
+Flexible schedule
+Food provided
+Health insurance
+Leave encashment
+
+
+
+Schedule:
+
+
+
+Day shift
+Flexible shift
+Monday to Friday
+Morning shift
+
+
+
+Supplemental pay types:
+
+
+
+Performance bonus
+Quarterly bonus
+Yearly bonus
+
+
+
+Ability to commute/relocate:
+
+
+
+Coimbatore, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Experience:
+
+
+
+PHP: 1 year (Preferred)
+total work: 1 year (Preferred)
+Any PHP Framework: 1 year (Preferred)
+
+
+
+Speak with the employer+91 9940772590
+
+
+
+
+
+
+###ID2
+###TITLEWeb Developer (Course + Internship)
+###COMPANYNAMENextskill Technologies
+###LOCATIONCoimbatore, Tamil Nadu
+Web Developer (Course + Internship) - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+We are actively seeking candidates for the position of Web Developer. Based on the compatibility of the candidates with our organization, we provide options for both direct placement and internship opportunities. We excel in offering technical guidance to Web Developers, which is one of our key strengths. Our training program incorporates involvement in real-time live projects, allowing our candidates to acquire firsthand experience in solving real-world problems and enhancing their career path.
+
+
+Job Types: Full-time, Fresher, Internship
+
+
+Salary: ₹7,500.00 - ₹30,000.00 per month
+
+
+Benefits:
+
+
+
+Flexible schedule
+Health insurance
+Internet reimbursement
+Provident Fund
+Work from home
+
+
+
+Schedule:
+
+
+
+Day shift
+Flexible shift
+Monday to Friday
+Morning shift
+Rotational shift
+Weekend availability
+
+
+
+Supplemental pay types:
+
+
+
+Commission pay
+Performance bonus
+Yearly bonus
+
+
+
+Ability to commute/relocate:
+
+
+
+Coimbatore, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Speak with the employer+91 7358110062
+
+
+
+
+
+
+###ID3
+###TITLEGraphic & Web Designer
+###COMPANYNAMEGreenz Info tech
+###LOCATIONCoimbatore, Tamil Nadu
+Graphic & Web Designer - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+WordPress Developer duties and responsibilities
+
+
+
+Designing and implementing new features and functionality
+Establishing and guiding the website’s architecture
+Ensuring high-performance and availability, and managing all technical aspects of the CMS
+Helping formulate an effective, responsive design and turning it into a working theme and plugin.
+{{Add other responsibilities here that are relevant.}}
+
+
+
+WordPress Developer requirements and qualifications
+
+
+
+Good understanding of front-end technologies, including HTML5, CSS3, JavaScript, jQuery
+Experience building user interfaces for websites and/or web applications
+Experience designing and developing responsive design websites
+Comfortable working with debugging tools like Firebug, Chrome inspector, etc.
+Ability to understand CSS changes and their ramifications to ensure consistent style across platforms and browsers
+Ability to convert comprehensive layout and wireframes into working HTML pages
+Knowledge of how to interact with RESTful APIs and formats (JSON, XML)
+Proficient understanding of code versioning tools {{such as Git, SVN, and Mercurial}}
+Strong understanding of PHP back-end development
+{{Make sure to mention any frameworks, libraries, or any other technology relevant to your project}}
+{{List education level or certification you require}}
+
+
+
+Job Types: Full-time, Regular / Permanent, FreelanceContract length: 24 months
+
+
+Salary: ₹8,086.00 - ₹30,665.55 per month
+
+
+Benefits:
+
+
+
+Work from home
+
+
+
+Schedule:
+
+
+
+Day shift
+Flexible shift
+
+
+
+Supplemental pay types:
+
+
+
+Performance bonus
+
+
+
+Ability to commute/relocate:
+
+
+
+Coimbatore, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Experience:
+
+
+
+CSS: 1 year (Preferred)
+total work: 1 year (Preferred)
+Design: 1 year (Preferred)
+
+
+
+Speak with the employer+91 8220083389
+
+
+
+
+
+
+###ID4
+###TITLEWeb Designer (Minimum 1+yrs of experience)
+###COMPANYNAMEUDI Global Solutions
+###LOCATIONCoimbatore, Tamil Nadu
+Web Designer (Minimum 1+yrs of experience) - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+We are looking for a web designer who will be responsible for creating great websites for our clients. Primary duties include conceptualizing and implementing creative ideas for client websites, as well as creating visual elements that are in line with our clients' branding. You will be working closely with our web development team to ensure proper and hassle-free implementation.
+
+
+To be successful in this role, you will need to have excellent visual design skills and be proficient in graphic design software such as Adobe Photoshop and Adobe Illustrator.
+
+
+Web Designer Responsibilities:
+
+
+
+Conceptualizing creative ideas with clients.
+Testing and improving the design of the website.
+Establishing design guidelines, standards, and best practices.
+Maintaining the appearance of websites by enforcing content standards.
+Designing visual imagery for websites and ensuring that they are in line with branding for clients.
+Working with different content management systems.
+Communicating design ideas using user flows, process flows, site maps, and wireframes.
+Incorporating functionalities and features into websites.
+Designing sample pages including colors and fonts.
+Preparing design plans and presenting the website structure.
+
+
+
+Job Type: Full-time
+
+
+Salary: ₹15,000.00 - ₹20,000.00 per month
+
+
+Benefits:
+
+
+
+Internet reimbursement
+
+
+
+Schedule:
+
+
+
+Day shift
+
+
+
+Supplemental pay types:
+
+
+
+Performance bonus
+
+
+
+Speak with the employer+91 8870000593
+
+
+
+
+
+
+###ID5
+###TITLEWeb Developer and Designer
+###COMPANYNAMETrymywebsites
+###LOCATIONCoimbatore, Tamil Nadu
+Web Developer and Designer - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+We are Hiring Web Developers for our concern
+
+
+Qualification : Any Degree
+
+
+Language : HTML, CSS, PHP, MYSQL, JAVASCRIPT
+
+
+FRESHERS ALSO APPLY
+
+
+Office Timing : 9.30am to 6.30pm
+
+
+Job Type: Full-time
+
+
+Salary: ₹9,000.00 - ₹12,000.00 per month
+
+
+Schedule:
+
+
+
+Day shift
+
+
+
+Supplemental pay types:
+
+
+
+Yearly bonus
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Language:
+
+
+
+Tamil (Preferred)
+
+
+
+Speak with the employer+91 9597236423
+
+
+
+
+
+
+###ID6
+###TITLEWeb Designer Intern
+###COMPANYNAMEIntegrin Enterprise Solutions
+###LOCATIONCoimbatore, Tamil Nadu
+Web Designer Intern - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+We are seeking Web Designer Interns, who will be part of the Engineering team and collaborate with the Developer team to build internal corporate sites using the latest technologies. Interns are expected to provide clean artful web designs.Experience in using some of the tools like Joomla,Drupal and Wordpress is essential. We expect you to create exceptional user design experience and have a good visual design sense. Previous experience in coding websites is expected.
+
+
+This role requires a Web Designer who is passionate about turning thoughts into an appealing design. We are a small team of highly skilled engineers and looking forward to adding a new member who wishes to advance in one's career by continuous learning.Selected candidates will be an integral part of a team of passionate and enthusiastic IT professionals, and have tremendous opportunities to contribute to the success of the products.
+
+
+Responsibilities
+
+
+
+Collaborate with back-end developers to ensure web and app logic is properly integrated
+Designing engaging and responsive landing pages and Optimizing sites for maximum speed and scalability
+Integrating client CMS programs and data feeds into websites
+Employing industry and design best practice through website build process
+Ensuring website function and stability across devices i.e. desktop, mobile, tablet
+Working with marketing and research teams to incorporate brand elements and relevant market research findings into website
+Execute all visual design stages from concept to final hand-off to engineering
+Conceptualize original website design ideas that bring simplicity and user friendliness to complex roadblocks
+Create wireframes, storyboards, user flows, process flows and site maps to communicate interaction and design ideas
+Present and defend designs and key deliverables to peers and executive level stakeholders
+Establish and promote design guidelines, best practices and standards
+
+
+
+Requirements and skills
+
+
+
+Demonstrable graphic design skills with a strong portfolio
+Solid experience in creating wireframes, storyboards, user flows, process flows and site maps
+Proficiency in Photoshop, Illustrator or other visual design and wire-framing tools
+Proficiency in HTML, CSS and JavaScript for rapid prototyping
+Experience working With Adobe Suite – Photoshop, Illustrator, InDesign
+Excellent visual design skills with sensitivity to user-system interaction
+Ability to solve problems creatively and effectively
+Up-to-date with the latest Web trends, techniques and technologies
+
+
+
+Job Types: Full-time, Regular / Permanent, Fresher, Internship
+
+
+Salary: ₹5,500.00 - ₹7,000.00 per month
+
+
+Schedule:
+
+
+
+Day shift
+Monday to Friday
+Morning shift
+
+
+
+Expected Start Date: 22/05/2023
+
+
+
+
+
+
+###ID7
+###TITLEWeb Development
+###COMPANYNAMEApeiro Solutions
+###LOCATIONCoimbatore, Tamil Nadu
+Web Development - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+The ideal candidates with past experience must have master-level knowledge of front-end development and client-side interactions using HTML, CSS and JQuery.
+
+
+
+
+
+
+###ID8
+###TITLEUI Developer - A4656 (Coimbatore)
+###COMPANYNAMENisum
+###LOCATIONCoimbatore, Tamil Nadu
+UI Developer - A4656 (Coimbatore) - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+
+
+
+
+
+
+
+
+
+
+Location: Coimbatore
+Team: Customer Interactive Services
+Work Type: Full Time / Contract
+
+
+
+         Nisum is a leading global digital commerce firm headquartered in California, with services spanning digital strategy and transformation, insights and analytics, blockchain, business agility, and custom software development. Founded in 2000 with the customer-centric motto “
+         Building Success Together®,” Nisum has grown to over 1,800 professionals across the United States, Chile,Colombia, India, Pakistan and Canada. A preferred advisor to leading Fortune 500 brands, Nisum enables clients to achieve direct business growth by building the advanced technology they need to reach end customers in today’s world, with immersive and seamless experiences across digital and physical channels.
+        
+
+
+
+
+ What You'll Do
+
+ Should be able to develop an application with any Javascript framework React.
+ Maintain reusable code and improve code quality.
+ Optimize application for maximum speed.
+ Should be an individual contributor role. (SME)
+ Should take ownership and work closely with other teams. such as the back end.
+ Make suggestions for better solutions to problems and keep abreast of the latest and emerging technologies.
+ Be comfortable working throughout the lifespan of a project.
+
+ What You Know
+
+ Should have a minimum of 8-10 years of experience.
+ Proficient understanding of web markup, including HTML5, CSS3, JavaScript / TypeScript.
+ Should have good knowledge of ES6.
+ Understanding of CSS and frameworks such as Tailwind CSS.
+ Should be proficient in the framework ReactJs.
+ Should be proficient any of the the frameworks Angular, ReactJs, VueJs etc.
+ Should have knowledge on Node Js.
+ Good to have experience in web component development.
+ Good understanding of Responsive Web Designing, CSS media queries, and Bootstrap library.
+ Understanding of cross-browser compatibility issues and ways to work around them.
+ Good understanding of asynchronous/Ajax request handling.
+ Good understanding of OOJS.
+ Knowledge of code versioning tools, such as GIT.
+ Knowledge in writing UI test cases using any test framework.
+
+ Education
+
+ Bachelor's degree in Computer Science, Engineering or equivalent demonstrable experience.
+
+ Benefits
+
+ In addition to competitive salaries and benefits packages, Nisum India offers its employees some unique and fun extras:
+ Continuous Learning - Year-round training sessions are offered as part of skill enhancement certifications sponsored by the company on an as need basis. We support our team to excel in their field.
+ Parental Medical Insurance - Nisum believes our team is the heart of our business and we want to make sure to take care of the heart of theirs. We offer opt-in parental medical insurance in addition to our medical benefits.
+ Activities -From the Nisum Premier League's cricket tournaments to hosted Hack-a-thon, Nisum employees can participate in a variety of team building activities such as skits, dances performance in addition to festival celebrations.
+ Free Meals - Free snacks and dinner is provided on a daily basis, in addition to subsidized lunch.
+
+
+
+
+         Nisum is an Equal Opportunity Employer and we are proud of our ongoing efforts to foster diversity and inclusion in the workplace.
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###ID9
+###TITLEFront End Developer / HTML Developer
+###COMPANYNAMEDsignz Media
+###LOCATIONCoimbatore, Tamil Nadu
+Front End Developer / HTML Developer - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+
+Work Experience : Minimum of 1 yr 
+ 
+Skills : CSS3, HTML5, Adobe Photoshop, JavaScript, jQuery and Knowledge of any Front End Framework(Foundation, BootStrap) 
+ 
+Location : Coimbatore
+
+
+
+
+
+
+
+
+
+
+
+  Please send your updated resume to info@dsignzmedia.com.
+ 
+
+
+
+
+
+
+
+###ID10
+###TITLEWebsite Developer
+###COMPANYNAMEBrahma Industrial Inc
+###LOCATIONCoimbatore, Tamil Nadu
+Website Developer - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+Brahma Industrial Inc is privately owned engineering and manufacturing company located in Coimbatore, Tamil Nadu
+
+
+Our business specialized in the following areas:
+
+
+
+Wooden toy development.
+
+
+
+Responsibilities and DutiesWe are currently looking experience candidates with 1 or 2 years who can do website development and SEO activities
+
+
+Required Experience, Skills and Qualifications
+
+
+
+Excellent communication
+documentation skills
+
+
+
+Benefits
+
+
+
+Competitive salary
+Convenient Location – Ganapathy, Coimbatore.
+
+
+
+Job Type: Part-time
+
+
+Salary: ₹7,000.00 - ₹9,000.00 per month
+
+
+Schedule:
+
+
+
+Day shift
+
+
+
+Supplemental pay types:
+
+
+
+Overtime pay
+
+
+
+Language:
+
+
+
+Hindi (Required)
+
+
+
+Speak with the employer+91 9994499138
+
+
+
+
+
+
+###ID11
+###TITLEWeb Designer/Developer
+###COMPANYNAMEINDTECHSOFT
+###LOCATIONCoimbatore, Tamil Nadu
+Web Designer/Developer - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+We are seeking a talented and experienced web designer and developer to join our team. The ideal candidate will have a passion for designing and developing beautiful, user-friendly websites using WordPress, HTML, CSS, and PHP.
+
+
+Responsibilities:
+
+
+
+Design and develop visually appealing and user-friendly websites using WordPress, HTML, CSS, and PHP.
+Customize and maintain existing WordPress themes and plugins to meet client needs.
+Ensure websites are optimized for search engine rankings and load quickly.
+Collaborate with team members, clients, and stakeholders to identify project goals and requirements.
+Create and maintain project timelines and budgets.
+Troubleshoot technical issues and provide solutions.
+Stay up-to-date with emerging web design and development trends and technologies.
+
+
+
+Requirements:
+
+
+
+Bachelor's degree in computer science, web design, or a related field.
+3+ years of experience in web design and development using WordPress, HTML, CSS, and PHP.
+Strong portfolio showcasing previous web design and development work.
+Experience customizing and maintaining WordPress themes and plugins.
+Strong understanding of responsive web design and cross-browser compatibility.
+Knowledge of SEO best practices and website optimization techniques.
+Familiarity with version control systems such as Git.
+Excellent communication and collaboration skills.
+Ability to work independently and manage multiple projects simultaneously.
+
+
+
+Job Type: Full-time
+
+
+Schedule:
+
+
+
+Day shift
+
+
+
+
+
+
+
+###ID12
+###TITLEWeb Developer and Designer
+###COMPANYNAMEInhaus Digitale
+###LOCATIONCoimbatore, Tamil Nadu
+Web Developer and Designer - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+Qualification : B.E. / M.E. / B.Tech / M.Tech / MCA. Experience : 0 - 2 YearsSkills : Freshers, Angular JS, Node JS, React JS, jQuery, ES6., Ionic / React Native., good team member, should be able to quickly adapt to changing requirements, scope and priorities.Job Description :
+
+
+Candidate will get the opportunity to be involved in interface design, improving user experience, build SPA and more.
+
+
+Will be responsible for Design, build and configure applications to meet business process and application requirements.
+
+
+Will be working Angular JS, Node JS, React JS, jQuery, ES6.
+
+
+Responsible for working with cross platform hybrid mobile applications in Ionic / React Native.
+
+
+Must be a good team member and should be able to quickly adapt to changing requirements, scope and priorities.
+
+
+Key Skills:
+
+
+Angular JS, Node JS, React JS, jQuery, ES6.
+
+
+Job Types: Full-time, Internship, Freelance
+
+
+Salary: ₹10,000.00 - ₹20,000.00 per month
+
+
+Benefits:
+
+
+
+Work from home
+
+
+
+Schedule:
+
+
+
+Day shift
+Flexible shift
+Monday to Friday
+Morning shift
+
+
+
+Supplemental pay types:
+
+
+
+Commission pay
+Performance bonus
+
+
+
+Ability to commute/relocate:
+
+
+
+Coimbatore, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Experience:
+
+
+
+total work: 1 year (Preferred)
+React: 1 year (Preferred)
+Node.js: 1 year (Preferred)
+
+
+
+License/Certification:
+
+
+
+Java (Preferred)
+
+
+
+
+
+
+
+###ID13
+###TITLEFront End Web Developer
+###COMPANYNAMEAvava Ventures
+###LOCATIONCoimbatore, Tamil Nadu
+Front End Web Developer - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+
+Minimum 2+ years of experience required.
+Experience in web development in HTML, WordPress, PSD to HTML, CSS, JavaScript.
+React and PHP is a big plus.
+Creating website layout/user interfaces by using standard HTML/CSS practices.
+
+
+
+
+Good Communication
+
+
+
+
+Good understanding about software development methodology
+Should possess good team work qualities and can-do attitude
+GIT knowledge is required
+Need efficient people who can handle multiple projects
+Must be a go-getter and a fast learner Responsible for timely delivery of projects based on client deadlines.
+
+
+
+Job Type: Full-time
+
+
+Salary: ₹180,000.00 - ₹260,000.00 per year
+
+
+Benefits:
+
+
+
+Paid sick time
+Paid time off
+
+
+
+Schedule:
+
+
+
+Morning shift
+
+
+
+Supplemental pay types:
+
+
+
+Performance bonus
+
+
+
+COVID-19 considerations:All Candidates have to wear mask.
+
+
+Ability to commute/relocate:
+
+
+
+Coimbatore - 641025, Tamil Nadu: Reliably commute or planning to relocate before starting work (Preferred)
+
+
+
+Application Question(s):
+
+
+
+Your CTC per Annum
+Please provide your latest portfolio links
+Do you have experience certificate or payslip from your existing employer ?
+
+
+
+Education:
+
+
+
+Bachelor's (Preferred)
+
+
+
+Experience:
+
+
+
+total work: 2 years (Preferred)
+HTML5: 2 years (Preferred)
+WordPress: 1 year (Preferred)
+
+
+
+Language:
+
+
+
+English, Tamil (Preferred)
+
+
+
+License/Certification:
+
+
+
+Aadhar (Preferred)
+12th Mark sheet (Preferred)
+
+
+
+Shift availability:
+
+
+
+Day Shift (Preferred)
+
+
+
+
+
+
+
+###ID14
+###TITLEWeb Designer / Front End Developer
+###COMPANYNAMEDesignosoft
+###LOCATIONCoimbatore, Tamil Nadu
+Web Designer / Front End Developer - Coimbatore, Tamil Nadu - Indeed.com
+save-icon
+Web Designer wanted for a web design company in Coimbatore
+
+
+We are looking for Web designers with minimum six months to one year exprience. full knowledge in WordPress, HTML, Bootstrap framework, JQuery. Candidates can contact us if you have relevant experience mentioned above. Candidates from Coimbatore preferred.
+
+
+Job Type: Full-time
+
+
+Salary: ₹8,000.00 - ₹14,000.00 per month
+
+
+Benefits:
+
+
+
+Work from home
+
+
+
+Schedule:
+
+
+
+Morning shift
+
+
+
+Ability to commute/relocate:
+
+
+
+ramnagar, Coimbatore, Coimbatore, Tamil Nadu: Reliably commute or planning to relocate before starting work (Required)
+
+
+
+Education:
+
+
+
+Diploma (Preferred)
+
+
+
+Experience:
+
+
+
+WordPress: 1 year (Preferred)
+Bootstrap: 1 year (Preferred)
+HTML5: 1 year (Preferred)
+
+
+
+
+
+
+
