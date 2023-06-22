@@ -10,6 +10,7 @@ import random
 from fuzzywuzzy import fuzz
 import re
 import json
+from PIL import Image
 
 # Dialogflow Code
 # """
@@ -303,6 +304,11 @@ if "rerun" not in st.session_state:
 
 
 st.title("🤖CABOT🤖")
+image = Image.open("logo.png")
+image = image.resize((300,200))
+col1, col2, col3 = st.columns(3)
+with col2:
+    st.image(image)
 if "generated" not in st.session_state:
     st.session_state["generated"] = ["Hello! Welcome"]
 
