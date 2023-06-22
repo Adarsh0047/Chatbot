@@ -302,7 +302,7 @@ if "rerun" not in st.session_state:
     st.session_state.now = now
 
 
-st.title("CABOT")
+st.title("🤖CABOT🤖")
 if "generated" not in st.session_state:
     st.session_state["generated"] = ["Hello! Welcome"]
 
